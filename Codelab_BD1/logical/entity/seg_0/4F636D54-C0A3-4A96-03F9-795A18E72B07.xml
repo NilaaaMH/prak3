@@ -1,0 +1,83 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4F636D54-C0A3-4A96-03F9-795A18E72B07" name="smartphone">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-02-23 06:50:34 UTC</createdTime>
+<ownerDesignName>Codelab_BD1</ownerDesignName>
+<engineerTo>
+<item key="23E8DC34-98F0-A900-4691-92458F9EC31E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_Produk" id="606C0824-761A-8428-FBB1-6B71DFB35291">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-02-23 06:50:57 UTC</createdTime>
+<ownerDesignName>Codelab_BD1</ownerDesignName>
+<engineerTo>
+<item key="23E8DC34-98F0-A900-4691-92458F9EC31E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nama_Smartphone" id="9A92FEDA-1906-D54F-74FD-4619E9986B24">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-02-23 06:51:08 UTC</createdTime>
+<ownerDesignName>Codelab_BD1</ownerDesignName>
+<engineerTo>
+<item key="23E8DC34-98F0-A900-4691-92458F9EC31E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Harga_smartphone" id="13E1BA76-3822-E54E-D661-4EB6C4C4046C">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-02-23 06:51:14 UTC</createdTime>
+<ownerDesignName>Codelab_BD1</ownerDesignName>
+<engineerTo>
+<item key="23E8DC34-98F0-A900-4691-92458F9EC31E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Stok_Tersedia" id="4BF86759-AF03-0C63-596F-890DD84A87BF">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-02-23 06:51:37 UTC</createdTime>
+<ownerDesignName>Codelab_BD1</ownerDesignName>
+<engineerTo>
+<item key="23E8DC34-98F0-A900-4691-92458F9EC31E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="844670BD-ED95-92A5-21E9-87A5E7873450" name="Toko Elektronik PK">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-02-23 06:55:12 UTC</createdTime>
+<ownerDesignName>Codelab_BD1</ownerDesignName>
+<engineerTo>
+<item key="23E8DC34-98F0-A900-4691-92458F9EC31E" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>606C0824-761A-8428-FBB1-6B71DFB35291</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

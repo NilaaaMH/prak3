@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A619D8EA-E915-8B07-4D00-E3412D601CB5" name="Kategori">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-02-23 06:58:35 UTC</createdTime>
+<ownerDesignName>Codelab_BD1</ownerDesignName>
+<engineerTo>
+<item key="23E8DC34-98F0-A900-4691-92458F9EC31E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_Kategori" id="2CDD0968-D7F7-02E9-15F2-3E0C233F61CD">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-02-23 06:58:49 UTC</createdTime>
+<ownerDesignName>Codelab_BD1</ownerDesignName>
+<engineerTo>
+<item key="23E8DC34-98F0-A900-4691-92458F9EC31E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nama_Kategori" id="4AF17F01-0876-30A1-BFA8-3B2434149769">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-02-23 06:58:55 UTC</createdTime>
+<ownerDesignName>Codelab_BD1</ownerDesignName>
+<engineerTo>
+<item key="23E8DC34-98F0-A900-4691-92458F9EC31E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="8A801005-4B06-3A1F-DCC0-0105DD158C13" name="Kategori PK">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-02-23 06:59:20 UTC</createdTime>
+<ownerDesignName>Codelab_BD1</ownerDesignName>
+<engineerTo>
+<item key="23E8DC34-98F0-A900-4691-92458F9EC31E" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>2CDD0968-D7F7-02E9-15F2-3E0C233F61CD</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F1C2F391-28AB-B17C-221C-D76021A67CFD" name="Aksesoris">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-02-23 07:25:16 UTC</createdTime>
+<generatorID>44AEFEDE-5805-C706-067B-6D68A08B6491</generatorID>
+<ownerDesignName>Codelab_BD1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Produk" id="C2CB2F19-4CC1-2294-FC94-5FD7D48C4F23">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-02-23 07:25:16 UTC</createdTime>
+<generatorID>F615C738-FDBF-287C-D694-9180F7320FDC</generatorID>
+<ownerDesignName>Codelab_BD1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nama_Produk" id="BF3F2FFB-CE34-FE45-5269-3F01F8A1F067">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-02-23 07:25:16 UTC</createdTime>
+<generatorID>28B4A135-B387-D3BD-2987-C844A29418B6</generatorID>
+<ownerDesignName>Codelab_BD1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Harga" id="7740AB9D-143C-98C1-E472-164A9DF42575">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-02-23 07:25:16 UTC</createdTime>
+<generatorID>6A377D6C-54B9-533B-1B87-40C430FF3FAB</generatorID>
+<ownerDesignName>Codelab_BD1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Stok_Tersedia" id="44805379-BD6D-8012-BD86-F947788993F3">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-02-23 07:25:16 UTC</createdTime>
+<generatorID>59EFBAB1-24B7-4430-04CD-189D8414EF59</generatorID>
+<ownerDesignName>Codelab_BD1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="70296106-D51E-AE90-3912-D1E3649F5990" name="Aksesoris_PK">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-02-23 07:25:16 UTC</createdTime>
+<generatorID>05A4009F-96DC-D239-AA58-8902755BF999</generatorID>
+<ownerDesignName>Codelab_BD1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C2CB2F19-4CC1-2294-FC94-5FD7D48C4F23"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

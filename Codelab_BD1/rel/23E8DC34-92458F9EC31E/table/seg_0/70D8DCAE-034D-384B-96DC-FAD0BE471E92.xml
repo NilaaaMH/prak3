@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="70D8DCAE-034D-384B-96DC-FAD0BE471E92" name="smartphone">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-02-23 07:25:16 UTC</createdTime>
+<generatorID>4F636D54-C0A3-4A96-03F9-795A18E72B07</generatorID>
+<ownerDesignName>Codelab_BD1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Produk" id="3C48FDA9-A064-6CAF-9571-288E9C4C96CA">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-02-23 07:25:16 UTC</createdTime>
+<generatorID>606C0824-761A-8428-FBB1-6B71DFB35291</generatorID>
+<ownerDesignName>Codelab_BD1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nama_Smartphone" id="5ACBAA01-78E2-071A-9E5A-A75A0BE2EDF9">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-02-23 07:25:16 UTC</createdTime>
+<generatorID>9A92FEDA-1906-D54F-74FD-4619E9986B24</generatorID>
+<ownerDesignName>Codelab_BD1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Harga_smartphone" id="A22C742A-6CDE-AC14-88FF-C1B0876D6D17">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-02-23 07:25:16 UTC</createdTime>
+<generatorID>13E1BA76-3822-E54E-D661-4EB6C4C4046C</generatorID>
+<ownerDesignName>Codelab_BD1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Stok_Tersedia" id="D9FE29FF-0609-4E0A-AB78-6D030F954B20">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-02-23 07:25:16 UTC</createdTime>
+<generatorID>4BF86759-AF03-0C63-596F-890DD84A87BF</generatorID>
+<ownerDesignName>Codelab_BD1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="91FE4938-505A-4410-2B03-215DBA5CAD23" name="smartphone_PK">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-02-23 07:25:16 UTC</createdTime>
+<generatorID>844670BD-ED95-92A5-21E9-87A5E7873450</generatorID>
+<ownerDesignName>Codelab_BD1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3C48FDA9-A064-6CAF-9571-288E9C4C96CA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

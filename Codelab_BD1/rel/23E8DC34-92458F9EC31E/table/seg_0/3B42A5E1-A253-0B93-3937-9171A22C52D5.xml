@@ -1,0 +1,50 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3B42A5E1-A253-0B93-3937-9171A22C52D5" name="Kategori">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-02-23 07:25:16 UTC</createdTime>
+<generatorID>A619D8EA-E915-8B07-4D00-E3412D601CB5</generatorID>
+<ownerDesignName>Codelab_BD1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Kategori" id="73A116F6-DB7E-0599-285B-887881CEC34F">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-02-23 07:25:16 UTC</createdTime>
+<generatorID>2CDD0968-D7F7-02E9-15F2-3E0C233F61CD</generatorID>
+<ownerDesignName>Codelab_BD1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nama_Kategori" id="2A3D6125-A17E-AC4E-8878-911D62FF3F1C">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-02-23 07:25:16 UTC</createdTime>
+<generatorID>4AF17F01-0876-30A1-BFA8-3B2434149769</generatorID>
+<ownerDesignName>Codelab_BD1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9A1FB5F2-323E-F539-1870-FC4868EB34D7" name="Kategori_PK">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-02-23 07:25:16 UTC</createdTime>
+<generatorID>8A801005-4B06-3A1F-DCC0-0105DD158C13</generatorID>
+<ownerDesignName>Codelab_BD1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="73A116F6-DB7E-0599-285B-887881CEC34F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

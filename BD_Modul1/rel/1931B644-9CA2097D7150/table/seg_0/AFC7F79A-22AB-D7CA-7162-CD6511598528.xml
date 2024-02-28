@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AFC7F79A-22AB-D7CA-7162-CD6511598528" name="Stok">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-02-28 23:33:10 UTC</createdTime>
+<generatorID>EDAC4C00-3EFE-E043-C1C3-FB344539B90A</generatorID>
+<ownerDesignName>BD_Modul1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Stok" id="5A1C21EA-6C71-D97F-0F72-4E66BF0ADCAA">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-02-28 23:33:10 UTC</createdTime>
+<generatorID>9F76AF1A-A523-FE88-7E28-A65429150CA8</generatorID>
+<ownerDesignName>BD_Modul1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Jumlah" id="F8681690-EE31-6371-362D-54A1BFE8ED61">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-02-28 23:33:10 UTC</createdTime>
+<generatorID>9F769B4F-1471-086D-5506-BDB255C40639</generatorID>
+<ownerDesignName>BD_Modul1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Tanggal_Masuk" id="D861A8DE-73FA-D2BE-54EE-4B4925DCE238">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-02-28 23:33:10 UTC</createdTime>
+<generatorID>D55CC561-3719-4F44-EBFB-8570CC90A652</generatorID>
+<ownerDesignName>BD_Modul1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="258D3953-B1AD-D6C2-AE1D-744AA3F0E60E" name="Stok_PK">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-02-28 23:33:10 UTC</createdTime>
+<generatorID>DC54BB6E-A797-782D-CE57-8061A1005FB9</generatorID>
+<ownerDesignName>BD_Modul1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5A1C21EA-6C71-D97F-0F72-4E66BF0ADCAA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

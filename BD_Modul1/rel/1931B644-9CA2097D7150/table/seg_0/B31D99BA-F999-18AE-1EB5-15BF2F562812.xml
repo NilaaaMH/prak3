@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B31D99BA-F999-18AE-1EB5-15BF2F562812" name="Produk">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-02-28 23:33:10 UTC</createdTime>
+<generatorID>C59DECFE-CC2A-E13F-688C-6A1CA0195459</generatorID>
+<ownerDesignName>BD_Modul1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Produk" id="BA04A251-7B6B-AD56-72C5-ECC1070DFEF5">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-02-28 23:33:10 UTC</createdTime>
+<generatorID>57F63E51-B012-3B9B-5394-A694CC589E64</generatorID>
+<ownerDesignName>BD_Modul1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nama_Produk" id="56AB4EBA-04C5-1B30-08F8-17DB04068892">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-02-28 23:33:10 UTC</createdTime>
+<generatorID>BC947353-6A7C-7917-89FB-4BBC4880BCF0</generatorID>
+<ownerDesignName>BD_Modul1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Harga_Produk" id="17B9FA3A-A9D2-E9E7-6AEA-309443541C46">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-02-28 23:33:10 UTC</createdTime>
+<generatorID>FD68E294-94A8-6604-5B64-A1FF76E078EE</generatorID>
+<ownerDesignName>BD_Modul1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>24</dataTypePrecision>
+<ownDataTypeParameters>,24,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Ketegori" id="35CF874E-40F4-053C-2EC3-5B6119C8A2DF">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-02-28 23:33:10 UTC</createdTime>
+<generatorID>8DAC4FEC-3D82-2A9F-23F0-3BF793C6ADFE</generatorID>
+<ownerDesignName>BD_Modul1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="05AE86FB-48C7-9DFB-BDA5-564D5E948EE6" name="Produk_PK">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-02-28 23:33:10 UTC</createdTime>
+<generatorID>86569307-52CE-40AF-9001-BBC44D892F3E</generatorID>
+<ownerDesignName>BD_Modul1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BA04A251-7B6B-AD56-72C5-ECC1070DFEF5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

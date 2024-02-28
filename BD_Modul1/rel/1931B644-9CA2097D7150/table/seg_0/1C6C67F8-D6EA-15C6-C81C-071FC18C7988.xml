@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1C6C67F8-D6EA-15C6-C81C-071FC18C7988" name="Hewan">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-02-28 23:33:10 UTC</createdTime>
+<generatorID>19957229-471D-C444-E4E8-1A9E6D94593B</generatorID>
+<ownerDesignName>BD_Modul1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Hewan" id="83126E16-4B44-D4E2-58D1-C2B033CBE25C">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-02-28 23:33:10 UTC</createdTime>
+<generatorID>5720E6DF-1E8E-DE86-DFAB-DCCAD9EDDA2C</generatorID>
+<ownerDesignName>BD_Modul1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nama_Hewan" id="D6BCFACF-E053-72E6-7895-1AE045F4E037">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-02-28 23:33:10 UTC</createdTime>
+<generatorID>744B7590-A370-48F4-0193-D05292CE1737</generatorID>
+<ownerDesignName>BD_Modul1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Jenis" id="063E4341-9015-A207-970F-05A3DCB7D42B">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-02-28 23:33:10 UTC</createdTime>
+<generatorID>E3CCB883-B654-3BA2-2E7A-B608D70AE2F8</generatorID>
+<ownerDesignName>BD_Modul1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Umur" id="BA28D1DB-5716-6916-0A83-F51E7C51DFF2">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-02-28 23:33:10 UTC</createdTime>
+<generatorID>2E5B0815-9DAF-37FE-78EC-5FDAFBBD8262</generatorID>
+<ownerDesignName>BD_Modul1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="34909172-D08D-2717-7607-4F111B863809" name="Hewan_PK">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-02-28 23:33:10 UTC</createdTime>
+<generatorID>90DC1C00-49B9-F17C-5BBC-B7C76BFAE725</generatorID>
+<ownerDesignName>BD_Modul1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="83126E16-4B44-D4E2-58D1-C2B033CBE25C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

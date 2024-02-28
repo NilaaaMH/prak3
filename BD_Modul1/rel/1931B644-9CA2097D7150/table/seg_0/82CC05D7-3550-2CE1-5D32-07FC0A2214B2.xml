@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="82CC05D7-3550-2CE1-5D32-07FC0A2214B2" name="Pegawai">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-02-28 23:33:10 UTC</createdTime>
+<generatorID>29EE8D40-891C-BED3-6080-3AC9BD0CDCD2</generatorID>
+<ownerDesignName>BD_Modul1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Pegawai" id="0C086370-EC18-E8B5-35D1-8A157AA5F3D5">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-02-28 23:33:10 UTC</createdTime>
+<generatorID>8D252AF9-FE8B-F54A-0A51-402A8CC00247</generatorID>
+<ownerDesignName>BD_Modul1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nama_Pegawai" id="D6067A6F-50E3-C0BE-632A-719950D31C88">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-02-28 23:33:10 UTC</createdTime>
+<generatorID>BB48D978-8BA6-A45D-D43A-64AE9FD3E2B0</generatorID>
+<ownerDesignName>BD_Modul1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Alamat_Pegawai" id="AB0EC595-92BF-BF70-3600-7247FD5BD67B">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-02-28 23:33:10 UTC</createdTime>
+<generatorID>B0671275-BAD3-F50A-E7DC-DF9F03791C5B</generatorID>
+<ownerDesignName>BD_Modul1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="No_Telepon_Pegawai" id="F5072C44-DF51-F482-E4A2-20ABF63DD5AF">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-02-28 23:33:10 UTC</createdTime>
+<generatorID>CDEB9AE0-F6DC-D5B4-C7CD-EFF7CAA2F20D</generatorID>
+<ownerDesignName>BD_Modul1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Gaji_Pegawai" id="801B0364-C138-8053-7C1E-6D7C4257F9CB">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-02-28 23:33:10 UTC</createdTime>
+<generatorID>180605EC-603F-E442-EDF7-78D5352DE038</generatorID>
+<ownerDesignName>BD_Modul1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>24</dataTypePrecision>
+<ownDataTypeParameters>,24,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="20E61ADA-2088-DA59-6347-09BC91EDA237" name="Pegawai_PK">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-02-28 23:33:10 UTC</createdTime>
+<generatorID>07645222-2653-6CC1-F2FA-048969F8EDB8</generatorID>
+<ownerDesignName>BD_Modul1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0C086370-EC18-E8B5-35D1-8A157AA5F3D5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A97E903E-A376-AC78-8136-876729A34A06" name="Pelanggan">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-02-28 23:33:10 UTC</createdTime>
+<generatorID>7DE66B73-45D5-64E4-EE09-74D5F4F98825</generatorID>
+<ownerDesignName>BD_Modul1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Pelanggan" id="44D1A2CD-692E-8333-D117-174C8E87B5C0">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-02-28 23:33:10 UTC</createdTime>
+<generatorID>2F58B0C0-9F05-AF00-C50F-93BA59E100A5</generatorID>
+<ownerDesignName>BD_Modul1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nama_Pelanggan" id="574EF328-5147-70AD-1EF6-CB63B0CEE160">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-02-28 23:33:10 UTC</createdTime>
+<generatorID>7FC59B9A-A0EA-F735-18B3-ACED97410067</generatorID>
+<ownerDesignName>BD_Modul1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Alamat_Pelanggan" id="3279BD7E-43F3-2760-1F62-71F27F3B5FF5">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-02-28 23:33:10 UTC</createdTime>
+<generatorID>415A11A1-E4ED-95B0-45FD-7F8A20BDF83A</generatorID>
+<ownerDesignName>BD_Modul1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="No_HP_Pelanggan" id="03D8BA1F-0BC7-4E17-B4F1-DFAAD4544CB9">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-02-28 23:33:10 UTC</createdTime>
+<generatorID>D2291723-0E28-5F83-44B3-3D02CE6F301B</generatorID>
+<ownerDesignName>BD_Modul1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Email_Pelanggan" id="899C21D7-0708-257B-3C7A-E2EC7612F45E">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-02-28 23:33:10 UTC</createdTime>
+<generatorID>BC5DE287-771C-F42D-0B23-0A22AD66B48D</generatorID>
+<ownerDesignName>BD_Modul1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F6BDF363-1EDC-07A8-FA5F-C7BB06115571" name="Pelanggan_PK">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-02-28 23:33:10 UTC</createdTime>
+<generatorID>D8F728C1-29F4-F88A-3B8E-2017F30DF2BF</generatorID>
+<ownerDesignName>BD_Modul1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="44D1A2CD-692E-8333-D117-174C8E87B5C0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

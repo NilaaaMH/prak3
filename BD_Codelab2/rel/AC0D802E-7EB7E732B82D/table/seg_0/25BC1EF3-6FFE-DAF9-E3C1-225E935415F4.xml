@@ -1,0 +1,49 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="25BC1EF3-6FFE-DAF9-E3C1-225E935415F4" name="lokasi">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-03-08 07:13:27 UTC</createdTime>
+<generatorID>B0DBB99D-561A-A1BD-7FB3-B49522EB11FA</generatorID>
+<ownerDesignName>BD_Codelab2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_lokasi" id="D0DB247F-710F-0300-82EB-6F65A1FBE5A4">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-03-08 07:13:27 UTC</createdTime>
+<generatorID>D78140AB-F178-D5FC-28FE-248D569A7376</generatorID>
+<ownerDesignName>BD_Codelab2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nama_lokasi" id="758B68EE-2E81-E212-1F37-2DE148C4CA88">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-03-08 07:13:27 UTC</createdTime>
+<generatorID>A87B6F5F-DED7-9F04-B552-9FA4227FAC65</generatorID>
+<ownerDesignName>BD_Codelab2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A823A63F-37C5-2654-246E-E5600B003D05" name="lokasi_PK">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-03-08 07:13:27 UTC</createdTime>
+<generatorID>2436B395-0064-5685-A9DC-47F2D06840C9</generatorID>
+<ownerDesignName>BD_Codelab2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D0DB247F-710F-0300-82EB-6F65A1FBE5A4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="BD_Codelab2" id="D3DF2CD3-BC59-0C6B-A5FA-5352CF9F5EAD" version="3.5">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-03-08 06:21:42 UTC</createdTime>
+<ownerDesignName>BD_Codelab2</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>D3DF2CD3-BC59-0C6B-A5FA-5352CF9F5EAD</designId>
+</OSDM_Design>

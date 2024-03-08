@@ -1,0 +1,49 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="24C4D27F-756C-0AF0-0D8C-41B0F3517FAE" name="kategori">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-03-08 07:13:27 UTC</createdTime>
+<generatorID>88D311BC-DA9C-E4E4-DE6D-F2923D5A9DCF</generatorID>
+<ownerDesignName>BD_Codelab2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_kategori" id="D511D66B-F601-78DD-3870-8916A623FD1A">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-03-08 07:13:27 UTC</createdTime>
+<generatorID>30611C26-23FA-4AF6-3E12-B612D0C46A9B</generatorID>
+<ownerDesignName>BD_Codelab2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nama_kategori" id="A98D4F19-64A3-6A02-13AC-707CB0EB7E2A">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-03-08 07:13:27 UTC</createdTime>
+<generatorID>B75D7DC3-88DC-B529-68D0-6CC1095BB518</generatorID>
+<ownerDesignName>BD_Codelab2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="18088874-6740-A984-D87F-6A568569DBB9" name="kategori_PK">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-03-08 07:13:27 UTC</createdTime>
+<generatorID>4735CFE2-00D7-D263-7CF7-921E261154D3</generatorID>
+<ownerDesignName>BD_Codelab2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D511D66B-F601-78DD-3870-8916A623FD1A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

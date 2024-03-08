@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2097E034-A1E7-4DEF-C535-0AED0A7C9F5B" name="karyawan">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-03-08 06:35:08 UTC</createdTime>
+<ownerDesignName>BD_Codelab2</ownerDesignName>
+<engineerTo>
+<item key="AC0D802E-FC2D-32D4-95B7-7EB7E732B82D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_karyawan" id="C52EBCB0-9B88-91BD-43F4-1F723A6AD68F">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-03-08 06:35:29 UTC</createdTime>
+<ownerDesignName>BD_Codelab2</ownerDesignName>
+<engineerTo>
+<item key="AC0D802E-FC2D-32D4-95B7-7EB7E732B82D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nama_karyawan" id="5538A5D9-697A-C2C6-3D18-8E923BDBBFD9">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-03-08 06:43:04 UTC</createdTime>
+<ownerDesignName>BD_Codelab2</ownerDesignName>
+<engineerTo>
+<item key="AC0D802E-FC2D-32D4-95B7-7EB7E732B82D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_lokasi" id="7E91D7E4-DBA2-E7B2-0722-67637D7FB94A">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-03-08 07:10:16 UTC</createdTime>
+<generatorID>FBE2C709-1EC7-993D-8852-ECDB319965E7</generatorID>
+<ownerDesignName>BD_Codelab2</ownerDesignName>
+<engineerTo>
+<item key="AC0D802E-FC2D-32D4-95B7-7EB7E732B82D" value="true"/>
+</engineerTo>
+<referedAttribute>D78140AB-F178-D5FC-28FE-248D569A7376</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="1CB58FAA-0D05-FD68-9349-BA4681D02F76" name="karyawan PK">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-03-08 06:35:40 UTC</createdTime>
+<ownerDesignName>BD_Codelab2</ownerDesignName>
+<engineerTo>
+<item key="AC0D802E-FC2D-32D4-95B7-7EB7E732B82D" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C52EBCB0-9B88-91BD-43F4-1F723A6AD68F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

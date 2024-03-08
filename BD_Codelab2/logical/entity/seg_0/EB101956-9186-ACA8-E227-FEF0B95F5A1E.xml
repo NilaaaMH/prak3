@@ -1,0 +1,124 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="EB101956-9186-ACA8-E227-FEF0B95F5A1E" name="barang">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-03-08 06:22:40 UTC</createdTime>
+<ownerDesignName>BD_Codelab2</ownerDesignName>
+<engineerTo>
+<item key="AC0D802E-FC2D-32D4-95B7-7EB7E732B82D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_barang" id="A2529296-2073-3DD5-BDB5-2FBE87A4EBBA">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-03-08 06:29:02 UTC</createdTime>
+<ownerDesignName>BD_Codelab2</ownerDesignName>
+<engineerTo>
+<item key="AC0D802E-FC2D-32D4-95B7-7EB7E732B82D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nama_barang" id="75687129-E5FD-719B-8F51-89A0128E7903">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-03-08 06:33:27 UTC</createdTime>
+<ownerDesignName>BD_Codelab2</ownerDesignName>
+<engineerTo>
+<item key="AC0D802E-FC2D-32D4-95B7-7EB7E732B82D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="stok_tersedia" id="FBD8E7E2-F727-1A44-4FDE-DEC7153126B5">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-03-08 06:46:09 UTC</createdTime>
+<ownerDesignName>BD_Codelab2</ownerDesignName>
+<engineerTo>
+<item key="AC0D802E-FC2D-32D4-95B7-7EB7E732B82D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="lokasi_id" id="763DB0F7-A23D-15F4-DBB7-E892331C1AEF">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-03-08 06:52:04 UTC</createdTime>
+<ownerDesignName>BD_Codelab2</ownerDesignName>
+<engineerTo>
+<item key="AC0D802E-FC2D-32D4-95B7-7EB7E732B82D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="kategori_id" id="F6F87285-9E46-71DE-F9C7-31E3778D465F">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-03-08 06:53:11 UTC</createdTime>
+<ownerDesignName>BD_Codelab2</ownerDesignName>
+<engineerTo>
+<item key="AC0D802E-FC2D-32D4-95B7-7EB7E732B82D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_kategori" id="C36C2FAD-FDF9-3AC9-3AFA-D00C574DD0C1">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-03-08 07:08:50 UTC</createdTime>
+<generatorID>13B89082-C947-6A62-1A77-AFD3A1800E4B</generatorID>
+<ownerDesignName>BD_Codelab2</ownerDesignName>
+<engineerTo>
+<item key="AC0D802E-FC2D-32D4-95B7-7EB7E732B82D" value="true"/>
+</engineerTo>
+<referedAttribute>30611C26-23FA-4AF6-3E12-B612D0C46A9B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_lokasi" id="EA2477DA-EE2C-308A-4A98-57A57356A5EF">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-03-08 07:09:44 UTC</createdTime>
+<generatorID>B6A25AE4-F856-9CA0-9176-C4497F26511F</generatorID>
+<ownerDesignName>BD_Codelab2</ownerDesignName>
+<engineerTo>
+<item key="AC0D802E-FC2D-32D4-95B7-7EB7E732B82D" value="true"/>
+</engineerTo>
+<referedAttribute>D78140AB-F178-D5FC-28FE-248D569A7376</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F1E18BFA-4E84-487B-4678-22D8A6ED62C4" name="barang PK">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-03-08 06:29:24 UTC</createdTime>
+<ownerDesignName>BD_Codelab2</ownerDesignName>
+<engineerTo>
+<item key="AC0D802E-FC2D-32D4-95B7-7EB7E732B82D" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A2529296-2073-3DD5-BDB5-2FBE87A4EBBA</attributeRef>
+<attributeRef>C36C2FAD-FDF9-3AC9-3AFA-D00C574DD0C1</attributeRef>
+<attributeRef>EA2477DA-EE2C-308A-4A98-57A57356A5EF</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

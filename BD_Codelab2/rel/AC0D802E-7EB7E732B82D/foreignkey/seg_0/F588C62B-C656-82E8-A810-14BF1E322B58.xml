@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="F588C62B-C656-82E8-A810-14BF1E322B58" containerWithKeyObject="449E8AFF-0C5A-5D09-4BC3-DC416884D4B0" localFKIndex="86B863A0-3F88-0436-C44C-66977A93EE34" name="karyawan_lokasi_FK">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-03-08 07:13:27 UTC</createdTime>
+<generatorID>FBE2C709-1EC7-993D-8852-ECDB319965E7</generatorID>
+<ownerDesignName>BD_Codelab2</ownerDesignName>
+<referredTableLongName>lokasi</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>25BC1EF3-6FFE-DAF9-E3C1-225E935415F4</referredTableID>
+<keyObject>A823A63F-37C5-2654-246E-E5600B003D05</keyObject>
+<referredKeyID>A823A63F-37C5-2654-246E-E5600B003D05</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_lokasi</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

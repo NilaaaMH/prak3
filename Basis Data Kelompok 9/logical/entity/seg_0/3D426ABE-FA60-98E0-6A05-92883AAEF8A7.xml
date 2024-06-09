@@ -1,0 +1,118 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3D426ABE-FA60-98E0-6A05-92883AAEF8A7" name="Peminjaman">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-06-09 09:42:42 UTC</createdTime>
+<ownerDesignName>Basis Data Kelompok 9</ownerDesignName>
+<engineerTo>
+<item key="47460B42-0E85-8792-3A19-0E365E9A44CA" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_peminjaman" id="35E47FA9-8474-0CAF-B993-22183849D552">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-06-09 09:48:16 UTC</createdTime>
+<ownerDesignName>Basis Data Kelompok 9</ownerDesignName>
+<engineerTo>
+<item key="47460B42-0E85-8792-3A19-0E365E9A44CA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tgl_peminjaman" id="BEB577B4-6726-32BF-34E6-32B54FF71D39">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-06-09 09:48:27 UTC</createdTime>
+<ownerDesignName>Basis Data Kelompok 9</ownerDesignName>
+<engineerTo>
+<item key="47460B42-0E85-8792-3A19-0E365E9A44CA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="status_peminjaman" id="86A2644F-D406-967E-8FCA-5C7B28F37E92">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-06-09 09:48:37 UTC</createdTime>
+<ownerDesignName>Basis Data Kelompok 9</ownerDesignName>
+<engineerTo>
+<item key="47460B42-0E85-8792-3A19-0E365E9A44CA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nama_anggota" id="19848D41-A58D-0900-E4BD-9E15E08E34EE">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-06-09 09:52:36 UTC</createdTime>
+<generatorID>F5CB4FC8-D1E8-4D05-E347-2CCBF24C08AE</generatorID>
+<ownerDesignName>Basis Data Kelompok 9</ownerDesignName>
+<engineerTo>
+<item key="47460B42-0E85-8792-3A19-0E365E9A44CA" value="true"/>
+</engineerTo>
+<referedAttribute>1CB08291-7246-F545-BA0D-B52A701EADE0</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="alamat_anggota" id="78A2236E-A6B0-01D3-DFFB-F422A9BEA204">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-06-09 09:52:36 UTC</createdTime>
+<generatorID>F5CB4FC8-D1E8-4D05-E347-2CCBF24C08AE</generatorID>
+<ownerDesignName>Basis Data Kelompok 9</ownerDesignName>
+<engineerTo>
+<item key="47460B42-0E85-8792-3A19-0E365E9A44CA" value="true"/>
+</engineerTo>
+<referedAttribute>A02C2FC8-5149-26EB-B8A4-C60DC642B284</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="no_telepon" id="F54EC9F7-1ACB-93D3-DE6B-5FACAA134CCD">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-06-09 09:52:36 UTC</createdTime>
+<generatorID>F5CB4FC8-D1E8-4D05-E347-2CCBF24C08AE</generatorID>
+<ownerDesignName>Basis Data Kelompok 9</ownerDesignName>
+<engineerTo>
+<item key="47460B42-0E85-8792-3A19-0E365E9A44CA" value="true"/>
+</engineerTo>
+<referedAttribute>027E02B1-EC51-A987-9553-21D257DB136F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_petugas" id="2E4FD083-7F82-FF7C-61ED-F77F1F5FD1A0">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-06-09 09:52:58 UTC</createdTime>
+<generatorID>D0DADBD5-BA39-6F21-337F-8B3402ECEED1</generatorID>
+<ownerDesignName>Basis Data Kelompok 9</ownerDesignName>
+<engineerTo>
+<item key="47460B42-0E85-8792-3A19-0E365E9A44CA" value="true"/>
+</engineerTo>
+<referedAttribute>DAE04023-BA4A-1B88-5BB4-56683149DA65</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="82C22F6A-0F04-C80B-1D0D-D6E3AC1A4EBF" name="Peminjaman PK">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-06-09 09:48:26 UTC</createdTime>
+<ownerDesignName>Basis Data Kelompok 9</ownerDesignName>
+<engineerTo>
+<item key="47460B42-0E85-8792-3A19-0E365E9A44CA" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>35E47FA9-8474-0CAF-B993-22183849D552</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Basis Data Kelompok 9" id="5883FEF5-24F4-229F-4A57-3A5AC11F76FD" version="3.5">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-06-09 09:41:16 UTC</createdTime>
+<ownerDesignName>Basis Data Kelompok 9</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>5883FEF5-24F4-229F-4A57-3A5AC11F76FD</designId>
+</OSDM_Design>

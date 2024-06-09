@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_7" directorySegmentName="seg_0" id="D2D2621C-9C4A-B529-7230-D949AE30B5B9">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-06-09 09:54:44 UTC</createdTime>
+<ownerDesignName>Basis Data Kelompok 9</ownerDesignName>
+<engineerTo>
+<item key="47460B42-0E85-8792-3A19-0E365E9A44CA" value="true"/>
+</engineerTo>
+<sourcePk>297A6738-5533-2F8A-58B5-F6669D3834C9</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>DA5C4A4E-30AC-3095-30C1-CE0DC6C55240</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>6FE421BD-D075-64C7-B6A4-8F46F3315BA8</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

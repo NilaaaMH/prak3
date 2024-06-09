@@ -1,0 +1,105 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5ADE3BF0-4F54-67D8-1603-D1F5D7645961" name="Denda">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-06-09 09:42:59 UTC</createdTime>
+<ownerDesignName>Basis Data Kelompok 9</ownerDesignName>
+<engineerTo>
+<item key="47460B42-0E85-8792-3A19-0E365E9A44CA" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_denda" id="42B313AB-DDC7-AF19-1376-E07661628248">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-06-09 09:49:56 UTC</createdTime>
+<ownerDesignName>Basis Data Kelompok 9</ownerDesignName>
+<engineerTo>
+<item key="47460B42-0E85-8792-3A19-0E365E9A44CA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="total_denda" id="4A95D2B3-DE6E-EBCF-B69D-47B812594649">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-06-09 09:50:05 UTC</createdTime>
+<ownerDesignName>Basis Data Kelompok 9</ownerDesignName>
+<engineerTo>
+<item key="47460B42-0E85-8792-3A19-0E365E9A44CA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tgl_pembayaran" id="7CB5C443-DD3A-474F-40F1-CEAD434C00FA">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-06-09 09:50:16 UTC</createdTime>
+<ownerDesignName>Basis Data Kelompok 9</ownerDesignName>
+<engineerTo>
+<item key="47460B42-0E85-8792-3A19-0E365E9A44CA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nama_anggota" id="582CA567-B7E1-7B04-5046-EA7A3F850769">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-06-09 09:55:09 UTC</createdTime>
+<generatorID>6D276498-918C-DE03-4846-D3DC18097DD6</generatorID>
+<ownerDesignName>Basis Data Kelompok 9</ownerDesignName>
+<engineerTo>
+<item key="47460B42-0E85-8792-3A19-0E365E9A44CA" value="true"/>
+</engineerTo>
+<referedAttribute>1CB08291-7246-F545-BA0D-B52A701EADE0</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="alamat_anggota" id="E7A2952C-7963-CCFE-D317-4A8D504628BC">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-06-09 09:55:09 UTC</createdTime>
+<generatorID>6D276498-918C-DE03-4846-D3DC18097DD6</generatorID>
+<ownerDesignName>Basis Data Kelompok 9</ownerDesignName>
+<engineerTo>
+<item key="47460B42-0E85-8792-3A19-0E365E9A44CA" value="true"/>
+</engineerTo>
+<referedAttribute>A02C2FC8-5149-26EB-B8A4-C60DC642B284</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="no_telepon" id="4DAB19D8-791C-A4DD-78F1-1EA977C0697E">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-06-09 09:55:09 UTC</createdTime>
+<generatorID>6D276498-918C-DE03-4846-D3DC18097DD6</generatorID>
+<ownerDesignName>Basis Data Kelompok 9</ownerDesignName>
+<engineerTo>
+<item key="47460B42-0E85-8792-3A19-0E365E9A44CA" value="true"/>
+</engineerTo>
+<referedAttribute>027E02B1-EC51-A987-9553-21D257DB136F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="6A54D046-4E19-51DB-4B32-E1E1CCA6B458" name="Denda PK">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-06-09 09:50:01 UTC</createdTime>
+<ownerDesignName>Basis Data Kelompok 9</ownerDesignName>
+<engineerTo>
+<item key="47460B42-0E85-8792-3A19-0E365E9A44CA" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>42B313AB-DDC7-AF19-1376-E07661628248</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,97 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AF5FA25B-86DD-F376-3B80-E48090A73981" name="Buku">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-06-17 04:56:33 UTC</createdTime>
+<generatorID>2EF40D7B-192D-670D-FA3D-E8761165E58E</generatorID>
+<ownerDesignName>TUBES BASIS DATA</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_buku" id="F6407B28-5163-983F-FDE3-B7747A3C604E">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-06-17 04:56:33 UTC</createdTime>
+<generatorID>69E89A7C-7C2D-2A2E-776C-7431B6A10035</generatorID>
+<ownerDesignName>TUBES BASIS DATA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="judul" id="71BEEA9B-77BB-C307-B587-714C030665EA">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-06-17 04:56:33 UTC</createdTime>
+<generatorID>87109E60-B921-DD94-77FE-9C0E2996B500</generatorID>
+<ownerDesignName>TUBES BASIS DATA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="penulis" id="EB760319-A2B2-341E-41DA-71BD9EFC7356">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-06-17 04:56:33 UTC</createdTime>
+<generatorID>5EE1324E-4264-553D-51CA-7210D4D8CA98</generatorID>
+<ownerDesignName>TUBES BASIS DATA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="penerbit" id="46422668-56E0-D032-9152-3B7BC3507D1C">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-06-17 04:56:33 UTC</createdTime>
+<generatorID>5F8A0C76-B36A-4687-2C55-3D8BBE78E793</generatorID>
+<ownerDesignName>TUBES BASIS DATA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="kategori" id="FD22E528-3A14-6EF4-3624-42633356218E">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-06-17 04:56:33 UTC</createdTime>
+<generatorID>D27BB511-6ACF-A88C-1F45-56F875676994</generatorID>
+<ownerDesignName>TUBES BASIS DATA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tahun_terbit" id="E0D7C909-7C5B-2B3B-9C70-47F48F36B05F">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-06-17 04:56:33 UTC</createdTime>
+<generatorID>31C16463-D9BE-5006-1E8D-502594BC2D06</generatorID>
+<ownerDesignName>TUBES BASIS DATA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ISBN" id="C2D5F7B7-9239-D313-38B5-3FA5DC2B18CA">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-06-17 04:56:33 UTC</createdTime>
+<generatorID>D6B31E77-C38C-879B-4EF7-7A1BF47DE703</generatorID>
+<ownerDesignName>TUBES BASIS DATA</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="94B41A25-4DCF-F195-7E4E-53468239926E" name="Buku_PK">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-06-17 04:56:33 UTC</createdTime>
+<generatorID>4123A086-C7B5-FDBA-E7F0-D24552E943B9</generatorID>
+<ownerDesignName>TUBES BASIS DATA</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F6407B28-5163-983F-FDE3-B7747A3C604E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

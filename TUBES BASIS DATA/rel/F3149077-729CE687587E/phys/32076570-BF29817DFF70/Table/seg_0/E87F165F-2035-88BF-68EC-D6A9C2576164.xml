@@ -1,0 +1,68 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="Peminjaman" directorySegmentName="seg_0" id="E87F165F-2035-88BF-68EC-D6A9C2576164">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-06-17 04:57:40 UTC</createdTime>
+<ownerDesignName>TUBES BASIS DATA</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="tanggal_pinjam" id="36DC754F-ECE5-6628-15FF-A9B88EBD8380">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-06-17 04:57:40 UTC</createdTime>
+<ownerDesignName>TUBES BASIS DATA</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Anggota_id_anggota" id="428BCC4E-2C28-9822-CDCA-EC95126C2269">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-06-17 04:57:40 UTC</createdTime>
+<ownerDesignName>TUBES BASIS DATA</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="tanggal_kembali" id="49089049-7A54-483C-5F01-CAFBD242F7EB">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-06-17 04:57:40 UTC</createdTime>
+<ownerDesignName>TUBES BASIS DATA</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Staff_id_staff" id="95FBCBB1-FFA5-4DED-2AC7-869BD02EDC15">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-06-17 04:57:40 UTC</createdTime>
+<ownerDesignName>TUBES BASIS DATA</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="id_peminjaman" id="97DA3943-24B9-6A4F-DE6D-66C19F8D02B4">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-06-17 04:57:40 UTC</createdTime>
+<ownerDesignName>TUBES BASIS DATA</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Buku_id_buku" id="F10567FE-1C56-DD3C-554A-CC74648CC472">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-06-17 04:57:40 UTC</createdTime>
+<ownerDesignName>TUBES BASIS DATA</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="Peminjaman_Buku_FK" id="338BD977-2D84-CC58-C5F4-5BD029ED61C2">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-06-17 04:57:40 UTC</createdTime>
+<ownerDesignName>TUBES BASIS DATA</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="Peminjaman_Anggota_FK" id="86539598-790B-0FFD-77CB-79D66DF01578">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-06-17 04:57:40 UTC</createdTime>
+<ownerDesignName>TUBES BASIS DATA</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="Peminjaman_Staff_FK" id="E6C6C248-25B9-DB4C-BDE6-9C1803EDA379">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-06-17 04:57:40 UTC</createdTime>
+<ownerDesignName>TUBES BASIS DATA</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="Peminjaman_PK" id="33F50A0E-5ADA-A11E-CA60-9A1599F8B099">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-06-17 04:57:40 UTC</createdTime>
+<ownerDesignName>TUBES BASIS DATA</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

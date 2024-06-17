@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C2BD0F01-B898-3BAE-7B69-3265D15240F6" name="Staff">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-06-17 04:56:33 UTC</createdTime>
+<generatorID>D5FFB95D-1964-3354-BF82-3AED0E5873CC</generatorID>
+<ownerDesignName>TUBES BASIS DATA</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_staff" id="44A12875-39E9-8BDD-1693-1DD299D12621">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-06-17 04:56:33 UTC</createdTime>
+<generatorID>AB10AAC2-365B-083E-B472-43AF985E78B0</generatorID>
+<ownerDesignName>TUBES BASIS DATA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nama_staff" id="ACE3AAE7-E58D-21E7-F00D-4CB6EB03F940">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-06-17 04:56:33 UTC</createdTime>
+<generatorID>63FFBCEA-5F83-6302-42D6-18E2C5FB363E</generatorID>
+<ownerDesignName>TUBES BASIS DATA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="posisi" id="7AD1BFBD-A3E9-E29C-E28C-CAFD1768F442">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-06-17 04:56:33 UTC</createdTime>
+<generatorID>15A77015-1828-C57D-2098-D01D088C2692</generatorID>
+<ownerDesignName>TUBES BASIS DATA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="email" id="E01884E0-8874-F073-2A6E-C8EFD2446D3B">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-06-17 04:56:33 UTC</createdTime>
+<generatorID>DF31416A-3ABA-DF1C-B484-D2D1426C6A6E</generatorID>
+<ownerDesignName>TUBES BASIS DATA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nomor_telepon" id="E742A7F2-9C0D-E7C9-7088-24D49655F060">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-06-17 04:56:33 UTC</createdTime>
+<generatorID>6C74EDF7-7DCC-27F3-D4E3-ED03A04EA176</generatorID>
+<ownerDesignName>TUBES BASIS DATA</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tanggal_bergabung" id="19B0AB77-6774-3D36-16BC-41C3A53CC770">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-06-17 04:56:33 UTC</createdTime>
+<generatorID>1BBD5307-AB18-CB78-AC04-81A7AC712F12</generatorID>
+<ownerDesignName>TUBES BASIS DATA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tanggal_lahir" id="CBDE4A2B-9655-7BDA-864D-FA8728EEA39D">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-06-17 04:56:33 UTC</createdTime>
+<generatorID>633E5BD0-84E9-EEAB-4CA3-99B95636016F</generatorID>
+<ownerDesignName>TUBES BASIS DATA</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F8397BDD-D5E8-351B-E62F-4396E1D19227" name="Staff_PK">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-06-17 04:56:33 UTC</createdTime>
+<generatorID>BA34EAB5-52F4-6E37-37D8-727DCC3E4FFB</generatorID>
+<ownerDesignName>TUBES BASIS DATA</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="44A12875-39E9-8BDD-1693-1DD299D12621"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

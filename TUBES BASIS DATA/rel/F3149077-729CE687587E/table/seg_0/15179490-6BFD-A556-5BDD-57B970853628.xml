@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="15179490-6BFD-A556-5BDD-57B970853628" name="Pengembalian">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-06-17 04:56:33 UTC</createdTime>
+<generatorID>1AF4541B-18C4-0B2E-AE3B-DB273FC7DA3B</generatorID>
+<ownerDesignName>TUBES BASIS DATA</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_pengembalian" id="298B906C-5DB0-B92E-D7DA-55CFF84FA540">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-06-17 04:56:33 UTC</createdTime>
+<generatorID>12EA7D27-D00E-B81E-3454-E739FA81A7A3</generatorID>
+<ownerDesignName>TUBES BASIS DATA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tanggal_pengembalian" id="CF91E039-2101-03B3-AED1-19FC125FF9FB">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-06-17 04:56:33 UTC</createdTime>
+<generatorID>19D4FA57-A528-9DB0-FB5F-9E276286716F</generatorID>
+<ownerDesignName>TUBES BASIS DATA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="denda" id="9BBD5830-08B5-0B68-88B2-88F4AF6D0F87">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-06-17 04:56:33 UTC</createdTime>
+<generatorID>F82540CB-5AB2-A6A9-238D-446A6C9E5B08</generatorID>
+<ownerDesignName>TUBES BASIS DATA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Peminjaman_id_peminjaman" id="A12FA56E-72B5-41DE-BBEA-A59B63006FF4">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-06-17 04:56:33 UTC</createdTime>
+<generatorID>B1CD2559-EF1E-68E3-1241-96EA1A5F3EE2</generatorID>
+<ownerDesignName>TUBES BASIS DATA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E7427649-617E-7114-180B-97949E29985A" referredColumn="97DA3943-24B9-6A4F-DE6D-66C19F8D02B4"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="11249D5F-3106-1B59-339B-6437E0AD3C81" name="Pengembalian_PK">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-06-17 04:56:33 UTC</createdTime>
+<generatorID>DDBA1887-3037-DAAB-8619-414A5C748783</generatorID>
+<ownerDesignName>TUBES BASIS DATA</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="298B906C-5DB0-B92E-D7DA-55CFF84FA540"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="40E3BFCD-DEB3-5FA9-F7BD-518A113BDE1F" name="Pengembalian__IDX">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-06-17 04:56:33 UTC</createdTime>
+<ownerDesignName>TUBES BASIS DATA</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>CC42A06F-C29F-B8A4-9C11-0B658ABC3339</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="A12FA56E-72B5-41DE-BBEA-A59B63006FF4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7AC85F27-9728-48F0-14CC-FE812F71D807" name="Pengembalian_Peminjaman_FK">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-06-17 04:56:33 UTC</createdTime>
+<generatorID>CC42A06F-C29F-B8A4-9C11-0B658ABC3339</generatorID>
+<ownerDesignName>TUBES BASIS DATA</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A12FA56E-72B5-41DE-BBEA-A59B63006FF4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

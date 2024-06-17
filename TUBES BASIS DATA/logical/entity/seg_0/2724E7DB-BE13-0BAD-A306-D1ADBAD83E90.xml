@@ -1,0 +1,110 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2724E7DB-BE13-0BAD-A306-D1ADBAD83E90" name="Anggota">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-06-17 04:46:47 UTC</createdTime>
+<ownerDesignName>TUBES BASIS DATA</ownerDesignName>
+<engineerTo>
+<item key="F3149077-B815-7590-0238-729CE687587E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_anggota" id="C33A12DF-88FD-3A3E-30DA-C9A09BEDC24C">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-06-17 04:47:18 UTC</createdTime>
+<ownerDesignName>TUBES BASIS DATA</ownerDesignName>
+<engineerTo>
+<item key="F3149077-B815-7590-0238-729CE687587E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nama_anggota" id="F653D010-1DB4-9574-8830-19CA5B787302">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-06-17 04:47:43 UTC</createdTime>
+<ownerDesignName>TUBES BASIS DATA</ownerDesignName>
+<engineerTo>
+<item key="F3149077-B815-7590-0238-729CE687587E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="alamat" id="CF707BA1-EFD6-1EBD-FC6E-6CC726781C30">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-06-17 04:47:58 UTC</createdTime>
+<ownerDesignName>TUBES BASIS DATA</ownerDesignName>
+<engineerTo>
+<item key="F3149077-B815-7590-0238-729CE687587E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tanggal_lahir" id="4CC0E221-3B8B-0487-0087-A03639846383">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-06-17 04:48:13 UTC</createdTime>
+<ownerDesignName>TUBES BASIS DATA</ownerDesignName>
+<engineerTo>
+<item key="F3149077-B815-7590-0238-729CE687587E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="email" id="22ECB9E1-A973-4C2C-9737-790A975D6CFA">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-06-17 04:48:24 UTC</createdTime>
+<ownerDesignName>TUBES BASIS DATA</ownerDesignName>
+<engineerTo>
+<item key="F3149077-B815-7590-0238-729CE687587E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nomor_telepon" id="118F013D-F8B5-1A5C-97CD-C093EC9A1801">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-06-17 04:48:29 UTC</createdTime>
+<ownerDesignName>TUBES BASIS DATA</ownerDesignName>
+<engineerTo>
+<item key="F3149077-B815-7590-0238-729CE687587E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tanggal_bergabung" id="68D15831-88D1-07B1-C9C8-0DF19AB027A5">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-06-17 04:48:39 UTC</createdTime>
+<ownerDesignName>TUBES BASIS DATA</ownerDesignName>
+<engineerTo>
+<item key="F3149077-B815-7590-0238-729CE687587E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="BBB1872E-36F0-8772-3A2D-A100CBD1F06E" name="Anggota PK">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-06-17 04:47:42 UTC</createdTime>
+<ownerDesignName>TUBES BASIS DATA</ownerDesignName>
+<engineerTo>
+<item key="F3149077-B815-7590-0238-729CE687587E" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C33A12DF-88FD-3A3E-30DA-C9A09BEDC24C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="70351D5E-CA33-AF21-D04D-8862C5858746" mainViewID="14339D0A-62E6-577C-5874-89876115B974">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-06-17 04:46:29 UTC</createdTime>
+<ownerDesignName>TUBES BASIS DATA</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

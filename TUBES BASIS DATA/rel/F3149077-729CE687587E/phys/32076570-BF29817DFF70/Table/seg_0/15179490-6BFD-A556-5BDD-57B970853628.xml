@@ -1,0 +1,55 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="Pengembalian" directorySegmentName="seg_0" id="15179490-6BFD-A556-5BDD-57B970853628">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-06-17 04:57:40 UTC</createdTime>
+<ownerDesignName>TUBES BASIS DATA</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="id_pengembalian" id="298B906C-5DB0-B92E-D7DA-55CFF84FA540">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-06-17 04:57:40 UTC</createdTime>
+<ownerDesignName>TUBES BASIS DATA</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="denda" id="9BBD5830-08B5-0B68-88B2-88F4AF6D0F87">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-06-17 04:57:40 UTC</createdTime>
+<ownerDesignName>TUBES BASIS DATA</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Peminjaman_id_peminjaman" id="A12FA56E-72B5-41DE-BBEA-A59B63006FF4">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-06-17 04:57:40 UTC</createdTime>
+<ownerDesignName>TUBES BASIS DATA</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="tanggal_pengembalian" id="CF91E039-2101-03B3-AED1-19FC125FF9FB">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-06-17 04:57:40 UTC</createdTime>
+<ownerDesignName>TUBES BASIS DATA</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="Pengembalian__IDX" id="40E3BFCD-DEB3-5FA9-F7BD-518A113BDE1F">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-06-17 04:57:40 UTC</createdTime>
+<ownerDesignName>TUBES BASIS DATA</ownerDesignName>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="Pengembalian_Peminjaman_FK" id="7AC85F27-9728-48F0-14CC-FE812F71D807">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-06-17 04:57:40 UTC</createdTime>
+<ownerDesignName>TUBES BASIS DATA</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="Pengembalian_PK" id="11249D5F-3106-1B59-339B-6437E0AD3C81">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-06-17 04:57:40 UTC</createdTime>
+<ownerDesignName>TUBES BASIS DATA</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

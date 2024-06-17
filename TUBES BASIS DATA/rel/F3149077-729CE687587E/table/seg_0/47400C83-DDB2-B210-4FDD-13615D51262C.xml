@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="47400C83-DDB2-B210-4FDD-13615D51262C" name="Penerbit">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-06-17 04:56:33 UTC</createdTime>
+<generatorID>F3DE68E0-26C8-0D99-69B0-E8A8AA337C70</generatorID>
+<ownerDesignName>TUBES BASIS DATA</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_penerbit" id="2A942DF7-CD2F-77F4-1380-1CCE66ED61C6">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-06-17 04:56:33 UTC</createdTime>
+<generatorID>A3D1ECB9-C3D2-327C-536E-01AE419940CF</generatorID>
+<ownerDesignName>TUBES BASIS DATA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nama_penerbit" id="C37422A6-150C-334B-C450-F4F54D90C05A">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-06-17 04:56:33 UTC</createdTime>
+<generatorID>A10098E6-21EE-370D-D0AF-2E9DBFD15ABB</generatorID>
+<ownerDesignName>TUBES BASIS DATA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telepon" id="852539C2-8271-7073-F8F0-7D94112A1278">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-06-17 04:56:33 UTC</createdTime>
+<generatorID>32F08D10-208A-13BB-D0AB-3B3F4181FFCC</generatorID>
+<ownerDesignName>TUBES BASIS DATA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="email" id="55D01ACE-031C-4CA9-635B-21C8B430C6B1">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-06-17 04:56:33 UTC</createdTime>
+<generatorID>F95928C8-0DBC-F580-AE2C-9FE8C5D9B8D1</generatorID>
+<ownerDesignName>TUBES BASIS DATA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="alamat" id="E5286A11-0C19-7E3A-C064-2A068EBD04A3">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-06-17 04:56:33 UTC</createdTime>
+<generatorID>746D6DF6-D715-641B-C280-36ECF868B755</generatorID>
+<ownerDesignName>TUBES BASIS DATA</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Buku_id_buku" id="75DB3F76-9B42-C93A-F273-DE13B39F5DC9">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-06-17 04:56:33 UTC</createdTime>
+<generatorID>6604604F-1203-BAB4-CD2D-2A7951A2A604</generatorID>
+<ownerDesignName>TUBES BASIS DATA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1ED83101-F2A6-A9E9-D7E8-AF58D2816B59" referredColumn="F6407B28-5163-983F-FDE3-B7747A3C604E"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AC84DB6B-AD07-8638-65E0-70AB35A2B9E7" name="Penerbit_PK">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-06-17 04:56:33 UTC</createdTime>
+<generatorID>05EB1C3F-7AD6-1E2F-B898-0F4BCE71A167</generatorID>
+<ownerDesignName>TUBES BASIS DATA</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2A942DF7-CD2F-77F4-1380-1CCE66ED61C6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D739F5C4-6BFC-929F-B922-9D53F41CDD45" name="Penerbit_Buku_FK">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-06-17 04:56:33 UTC</createdTime>
+<generatorID>0C12DAA9-821B-DC53-949A-5E73C7ACEF6E</generatorID>
+<ownerDesignName>TUBES BASIS DATA</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="75DB3F76-9B42-C93A-F273-DE13B39F5DC9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

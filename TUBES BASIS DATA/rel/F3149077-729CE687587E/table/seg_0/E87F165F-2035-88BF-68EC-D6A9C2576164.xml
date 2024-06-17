@@ -1,0 +1,131 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E87F165F-2035-88BF-68EC-D6A9C2576164" name="Peminjaman">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-06-17 04:56:33 UTC</createdTime>
+<generatorID>D64F53DD-79A0-BBF9-BB2E-4633DB1784D2</generatorID>
+<ownerDesignName>TUBES BASIS DATA</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_peminjaman" id="97DA3943-24B9-6A4F-DE6D-66C19F8D02B4">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-06-17 04:56:33 UTC</createdTime>
+<generatorID>A2CC6C49-75D1-50AB-46AC-E4AD72DCEF38</generatorID>
+<ownerDesignName>TUBES BASIS DATA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tanggal_pinjam" id="36DC754F-ECE5-6628-15FF-A9B88EBD8380">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-06-17 04:56:33 UTC</createdTime>
+<generatorID>53F2A14C-AF1A-B34E-74BA-AC4BE60D6866</generatorID>
+<ownerDesignName>TUBES BASIS DATA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tanggal_kembali" id="49089049-7A54-483C-5F01-CAFBD242F7EB">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-06-17 04:56:33 UTC</createdTime>
+<generatorID>31B2BD80-0EE9-DF9A-D364-4A817850AC66</generatorID>
+<ownerDesignName>TUBES BASIS DATA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Anggota_id_anggota" id="428BCC4E-2C28-9822-CDCA-EC95126C2269">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-06-17 04:56:33 UTC</createdTime>
+<generatorID>303C0269-DD95-42A3-8A6A-915CA2CF6DB9</generatorID>
+<ownerDesignName>TUBES BASIS DATA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4CF71F93-9DBF-16C8-761E-B55687B70817" referredColumn="778BF7FC-34B3-BE4A-1FFF-F62595170AB6"/>
+</associations>
+</Column>
+<Column name="Staff_id_staff" id="95FBCBB1-FFA5-4DED-2AC7-869BD02EDC15">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-06-17 04:56:33 UTC</createdTime>
+<generatorID>49D65021-7CBD-E35D-AEFE-CFE94721679D</generatorID>
+<ownerDesignName>TUBES BASIS DATA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C98ADE38-778B-362A-D2D9-06B8DD554E02" referredColumn="44A12875-39E9-8BDD-1693-1DD299D12621"/>
+</associations>
+</Column>
+<Column name="Buku_id_buku" id="F10567FE-1C56-DD3C-554A-CC74648CC472">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-06-17 04:56:33 UTC</createdTime>
+<generatorID>A633C642-DEE3-4831-010D-05CFF728CA41</generatorID>
+<ownerDesignName>TUBES BASIS DATA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7A886996-1325-01FA-60D4-F7F5CDD3AE08" referredColumn="F6407B28-5163-983F-FDE3-B7747A3C604E"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="33F50A0E-5ADA-A11E-CA60-9A1599F8B099" name="Peminjaman_PK">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-06-17 04:56:33 UTC</createdTime>
+<generatorID>1DEFEB39-9B00-3F59-DF07-97F97F8B9250</generatorID>
+<ownerDesignName>TUBES BASIS DATA</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="97DA3943-24B9-6A4F-DE6D-66C19F8D02B4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="86539598-790B-0FFD-77CB-79D66DF01578" name="Peminjaman_Anggota_FK">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-06-17 04:56:33 UTC</createdTime>
+<generatorID>1DC97640-315F-82B8-043D-12D2023CFA45</generatorID>
+<ownerDesignName>TUBES BASIS DATA</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="428BCC4E-2C28-9822-CDCA-EC95126C2269"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E6C6C248-25B9-DB4C-BDE6-9C1803EDA379" name="Peminjaman_Staff_FK">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-06-17 04:56:33 UTC</createdTime>
+<generatorID>AAA2B22E-4E3D-3F9C-CDD3-B3914204CDA3</generatorID>
+<ownerDesignName>TUBES BASIS DATA</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="95FBCBB1-FFA5-4DED-2AC7-869BD02EDC15"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="338BD977-2D84-CC58-C5F4-5BD029ED61C2" name="Peminjaman_Buku_FK">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-06-17 04:56:33 UTC</createdTime>
+<generatorID>111544B3-39F8-D404-528D-CC6576CEE461</generatorID>
+<ownerDesignName>TUBES BASIS DATA</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F10567FE-1C56-DD3C-554A-CC74648CC472"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

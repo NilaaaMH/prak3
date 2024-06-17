@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="C98ADE38-778B-362A-D2D9-06B8DD554E02" containerWithKeyObject="E87F165F-2035-88BF-68EC-D6A9C2576164" localFKIndex="E6C6C248-25B9-DB4C-BDE6-9C1803EDA379" name="Peminjaman_Staff_FK">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-06-17 04:56:33 UTC</createdTime>
+<generatorID>AAA2B22E-4E3D-3F9C-CDD3-B3914204CDA3</generatorID>
+<ownerDesignName>TUBES BASIS DATA</ownerDesignName>
+<referredTableLongName>Staff</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>C2BD0F01-B898-3BAE-7B69-3265D15240F6</referredTableID>
+<keyObject>F8397BDD-D5E8-351B-E62F-4396E1D19227</keyObject>
+<referredKeyID>F8397BDD-D5E8-351B-E62F-4396E1D19227</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_staff</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

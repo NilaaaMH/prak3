@@ -1,0 +1,56 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="Anggota" directorySegmentName="seg_0" id="728277BC-65C1-D4FA-8966-5C593F71F9B8">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-06-17 04:57:40 UTC</createdTime>
+<ownerDesignName>TUBES BASIS DATA</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="tanggal_lahir" id="2CEA2749-9C41-B6D5-87C2-2EE20D17499C">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-06-17 04:57:40 UTC</createdTime>
+<ownerDesignName>TUBES BASIS DATA</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="id_anggota" id="778BF7FC-34B3-BE4A-1FFF-F62595170AB6">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-06-17 04:57:40 UTC</createdTime>
+<ownerDesignName>TUBES BASIS DATA</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="tanggal_bergabung" id="868F625B-B52B-E530-C6A7-DF8BEC96A51F">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-06-17 04:57:40 UTC</createdTime>
+<ownerDesignName>TUBES BASIS DATA</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="nomor_telepon" id="88802C8B-6FFE-7878-BEC5-0F966272C400">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-06-17 04:57:40 UTC</createdTime>
+<ownerDesignName>TUBES BASIS DATA</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="alamat" id="953CC871-3AC7-D2ED-899B-880D6AA233A4">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-06-17 04:57:40 UTC</createdTime>
+<ownerDesignName>TUBES BASIS DATA</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="email" id="B2DADB1B-2E99-3474-C222-059FFE0A6229">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-06-17 04:57:40 UTC</createdTime>
+<ownerDesignName>TUBES BASIS DATA</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="nama_anggota" id="DCC7EB58-2BDA-4121-19C4-B70E6882254B">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-06-17 04:57:40 UTC</createdTime>
+<ownerDesignName>TUBES BASIS DATA</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="Anggota_PK" id="6776C472-D6E9-DFB7-C2D0-0144BDBBFB61">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-06-17 04:57:40 UTC</createdTime>
+<ownerDesignName>TUBES BASIS DATA</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

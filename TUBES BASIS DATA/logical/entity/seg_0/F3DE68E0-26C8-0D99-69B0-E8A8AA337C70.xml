@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F3DE68E0-26C8-0D99-69B0-E8A8AA337C70" name="Penerbit">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-06-17 04:53:37 UTC</createdTime>
+<ownerDesignName>TUBES BASIS DATA</ownerDesignName>
+<engineerTo>
+<item key="F3149077-B815-7590-0238-729CE687587E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_penerbit" id="A3D1ECB9-C3D2-327C-536E-01AE419940CF">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-06-17 04:53:47 UTC</createdTime>
+<ownerDesignName>TUBES BASIS DATA</ownerDesignName>
+<engineerTo>
+<item key="F3149077-B815-7590-0238-729CE687587E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nama_penerbit" id="A10098E6-21EE-370D-D0AF-2E9DBFD15ABB">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-06-17 04:53:54 UTC</createdTime>
+<ownerDesignName>TUBES BASIS DATA</ownerDesignName>
+<engineerTo>
+<item key="F3149077-B815-7590-0238-729CE687587E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="telepon" id="32F08D10-208A-13BB-D0AB-3B3F4181FFCC">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-06-17 04:54:01 UTC</createdTime>
+<ownerDesignName>TUBES BASIS DATA</ownerDesignName>
+<engineerTo>
+<item key="F3149077-B815-7590-0238-729CE687587E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="email" id="F95928C8-0DBC-F580-AE2C-9FE8C5D9B8D1">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-06-17 04:54:07 UTC</createdTime>
+<ownerDesignName>TUBES BASIS DATA</ownerDesignName>
+<engineerTo>
+<item key="F3149077-B815-7590-0238-729CE687587E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="alamat" id="746D6DF6-D715-641B-C280-36ECF868B755">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-06-17 04:54:15 UTC</createdTime>
+<ownerDesignName>TUBES BASIS DATA</ownerDesignName>
+<engineerTo>
+<item key="F3149077-B815-7590-0238-729CE687587E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_buku" id="6604604F-1203-BAB4-CD2D-2A7951A2A604">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-06-17 04:54:56 UTC</createdTime>
+<generatorID>0C12DAA9-821B-DC53-949A-5E73C7ACEF6E</generatorID>
+<ownerDesignName>TUBES BASIS DATA</ownerDesignName>
+<engineerTo>
+<item key="F3149077-B815-7590-0238-729CE687587E" value="true"/>
+</engineerTo>
+<referedAttribute>69E89A7C-7C2D-2A2E-776C-7431B6A10035</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="05EB1C3F-7AD6-1E2F-B898-0F4BCE71A167" name="Penerbit PK">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-06-17 04:53:53 UTC</createdTime>
+<ownerDesignName>TUBES BASIS DATA</ownerDesignName>
+<engineerTo>
+<item key="F3149077-B815-7590-0238-729CE687587E" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A3D1ECB9-C3D2-327C-536E-01AE419940CF</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

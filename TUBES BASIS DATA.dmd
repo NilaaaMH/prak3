@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="TUBES BASIS DATA" id="F3EDC0B0-6F1F-A2A0-82F1-E0DD690CABC8" version="3.5">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-06-17 04:46:29 UTC</createdTime>
+<ownerDesignName>TUBES BASIS DATA</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>F3EDC0B0-6F1F-A2A0-82F1-E0DD690CABC8</designId>
+</OSDM_Design>

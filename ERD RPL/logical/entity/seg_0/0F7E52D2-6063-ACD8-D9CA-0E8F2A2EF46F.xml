@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0F7E52D2-6063-ACD8-D9CA-0E8F2A2EF46F" name="pengguna">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-07-06 03:55:56 UTC</createdTime>
+<ownerDesignName>ERD RPL</ownerDesignName>
+<engineerTo>
+<item key="EBCA59AC-22BB-6B20-837F-90959E10534C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_pengguna" id="D8946881-5AD9-0A22-30D2-9E21D2E9EC83">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-07-06 04:01:42 UTC</createdTime>
+<ownerDesignName>ERD RPL</ownerDesignName>
+<engineerTo>
+<item key="EBCA59AC-22BB-6B20-837F-90959E10534C" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="email" id="8D3C794A-FFB6-1219-CB4E-468DE746488B">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-07-06 04:01:53 UTC</createdTime>
+<ownerDesignName>ERD RPL</ownerDesignName>
+<engineerTo>
+<item key="EBCA59AC-22BB-6B20-837F-90959E10534C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nomor_hp" id="4F3893CD-451A-5473-5C0C-0BEDC066CBCD">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-07-06 04:02:08 UTC</createdTime>
+<ownerDesignName>ERD RPL</ownerDesignName>
+<engineerTo>
+<item key="EBCA59AC-22BB-6B20-837F-90959E10534C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="kata_sandi" id="5B2E5AE5-31D4-CEAF-7A5A-743D9AC98737">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-07-06 04:02:16 UTC</createdTime>
+<ownerDesignName>ERD RPL</ownerDesignName>
+<engineerTo>
+<item key="EBCA59AC-22BB-6B20-837F-90959E10534C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="6EC011FF-E589-11D8-EAA2-FC5595A54227" name="pengguna PK">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-07-06 04:01:50 UTC</createdTime>
+<ownerDesignName>ERD RPL</ownerDesignName>
+<engineerTo>
+<item key="EBCA59AC-22BB-6B20-837F-90959E10534C" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D8946881-5AD9-0A22-30D2-9E21D2E9EC83</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

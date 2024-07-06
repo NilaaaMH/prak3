@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="44D6DAB4-BB37-63CF-29C6-BC769E0187C1" name="riwayat_penjualan">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-07-06 03:57:39 UTC</createdTime>
+<ownerDesignName>ERD RPL</ownerDesignName>
+<engineerTo>
+<item key="EBCA59AC-22BB-6B20-837F-90959E10534C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_riwayat_penjualan" id="5C04A271-02F1-6D18-3C22-CCFEC0735F30">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-07-06 04:05:41 UTC</createdTime>
+<ownerDesignName>ERD RPL</ownerDesignName>
+<engineerTo>
+<item key="EBCA59AC-22BB-6B20-837F-90959E10534C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tgl_penjualan" id="BEEF4406-EC7E-527B-10CF-402340CA34C6">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-07-06 04:05:53 UTC</createdTime>
+<ownerDesignName>ERD RPL</ownerDesignName>
+<engineerTo>
+<item key="EBCA59AC-22BB-6B20-837F-90959E10534C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="harga_terjual" id="87B4C747-3648-39C4-9C10-01E94E3A7975">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-07-06 04:06:03 UTC</createdTime>
+<ownerDesignName>ERD RPL</ownerDesignName>
+<engineerTo>
+<item key="EBCA59AC-22BB-6B20-837F-90959E10534C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_notifikasi" id="60986526-34BC-22AA-92CD-5665FD995CFC">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-07-06 04:08:02 UTC</createdTime>
+<generatorID>17462ACD-952A-EC6D-E71A-363FCB067379</generatorID>
+<ownerDesignName>ERD RPL</ownerDesignName>
+<engineerTo>
+<item key="EBCA59AC-22BB-6B20-837F-90959E10534C" value="true"/>
+</engineerTo>
+<referedAttribute>B8E4FC23-5E8C-9062-CCF8-F005F0D3BFC2</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_pengguna" id="02CAA346-9284-14B1-120D-FF7F7FFE0ED9">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-07-06 04:08:39 UTC</createdTime>
+<generatorID>09BD1057-268F-151B-AD9C-7EBF89E980DE</generatorID>
+<ownerDesignName>ERD RPL</ownerDesignName>
+<engineerTo>
+<item key="EBCA59AC-22BB-6B20-837F-90959E10534C" value="true"/>
+</engineerTo>
+<referedAttribute>D8946881-5AD9-0A22-30D2-9E21D2E9EC83</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="AB430D57-AF81-5FCE-FC34-32A99289C756" name="riwayat_penjualan PK">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-07-06 04:05:51 UTC</createdTime>
+<ownerDesignName>ERD RPL</ownerDesignName>
+<engineerTo>
+<item key="EBCA59AC-22BB-6B20-837F-90959E10534C" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>5C04A271-02F1-6D18-3C22-CCFEC0735F30</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

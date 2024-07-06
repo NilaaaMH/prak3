@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="ERD RPL" id="56446BE7-5213-42C9-96A7-55EE9915151D" version="3.5">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-07-06 03:55:41 UTC</createdTime>
+<ownerDesignName>ERD RPL</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>56446BE7-5213-42C9-96A7-55EE9915151D</designId>
+</OSDM_Design>

@@ -1,0 +1,113 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B53C1024-05B9-7897-725D-96400A656B14" name="notifikasi_pengguna">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-07-06 03:57:25 UTC</createdTime>
+<ownerDesignName>ERD RPL</ownerDesignName>
+<engineerTo>
+<item key="EBCA59AC-22BB-6B20-837F-90959E10534C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_notifikasi" id="B8E4FC23-5E8C-9062-CCF8-F005F0D3BFC2">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-07-06 04:04:52 UTC</createdTime>
+<ownerDesignName>ERD RPL</ownerDesignName>
+<engineerTo>
+<item key="EBCA59AC-22BB-6B20-837F-90959E10534C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="jenis_notifikasi" id="8BFDB64A-13E2-1DBD-3C0B-48B5728A85A3">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-07-06 04:04:59 UTC</createdTime>
+<ownerDesignName>ERD RPL</ownerDesignName>
+<engineerTo>
+<item key="EBCA59AC-22BB-6B20-837F-90959E10534C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="isi_notifikasi" id="1624A383-B186-D2AA-BC00-1DBF5CABB689">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-07-06 04:05:10 UTC</createdTime>
+<ownerDesignName>ERD RPL</ownerDesignName>
+<engineerTo>
+<item key="EBCA59AC-22BB-6B20-837F-90959E10534C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tgl_notifikasi" id="6BD0161D-0BD4-0081-98E4-A80271666923">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-07-06 04:05:17 UTC</createdTime>
+<ownerDesignName>ERD RPL</ownerDesignName>
+<engineerTo>
+<item key="EBCA59AC-22BB-6B20-837F-90959E10534C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="status_baca" id="FA299C7C-0559-56AE-2F7C-80E83AF08B65">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-07-06 04:05:29 UTC</createdTime>
+<ownerDesignName>ERD RPL</ownerDesignName>
+<engineerTo>
+<item key="EBCA59AC-22BB-6B20-837F-90959E10534C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_pesan" id="647221F7-898B-9779-BB3A-EEAA25FD95CC">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-07-06 04:07:58 UTC</createdTime>
+<generatorID>13553513-DC78-7D3E-04CF-89FB6B91F663</generatorID>
+<ownerDesignName>ERD RPL</ownerDesignName>
+<engineerTo>
+<item key="EBCA59AC-22BB-6B20-837F-90959E10534C" value="true"/>
+</engineerTo>
+<referedAttribute>4F6DAD83-72D2-05E5-8381-EBCAC30BCFB5</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_pengguna" id="A0366613-0A39-0159-6E02-6E7AAA4AEDEB">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-07-06 04:09:16 UTC</createdTime>
+<generatorID>2DC3B5BC-ED22-0056-2AAF-7D1105A833DE</generatorID>
+<ownerDesignName>ERD RPL</ownerDesignName>
+<engineerTo>
+<item key="EBCA59AC-22BB-6B20-837F-90959E10534C" value="true"/>
+</engineerTo>
+<referedAttribute>D8946881-5AD9-0A22-30D2-9E21D2E9EC83</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="5C148EB9-6C38-5FB3-F641-564413BA349C" name="notifikasi_pengguna PK">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-07-06 04:04:58 UTC</createdTime>
+<ownerDesignName>ERD RPL</ownerDesignName>
+<engineerTo>
+<item key="EBCA59AC-22BB-6B20-837F-90959E10534C" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B8E4FC23-5E8C-9062-CCF8-F005F0D3BFC2</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,68 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="EE93D146-9280-C153-E789-D69ABB40EFAF" name="pembayaran">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-07-06 03:56:31 UTC</createdTime>
+<ownerDesignName>ERD RPL</ownerDesignName>
+<engineerTo>
+<item key="EBCA59AC-22BB-6B20-837F-90959E10534C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_pembayaran" id="5703C84C-CE2D-68DE-F2E2-B89416425330">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-07-06 04:04:08 UTC</createdTime>
+<ownerDesignName>ERD RPL</ownerDesignName>
+<engineerTo>
+<item key="EBCA59AC-22BB-6B20-837F-90959E10534C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="status_pembayaran" id="6CCC0A47-5F2B-22FC-15F0-751A6DD6A778">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-07-06 04:04:15 UTC</createdTime>
+<ownerDesignName>ERD RPL</ownerDesignName>
+<engineerTo>
+<item key="EBCA59AC-22BB-6B20-837F-90959E10534C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_kategori" id="AAF87355-D51C-6D26-05D4-B7C74DEE5E70">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-07-06 04:07:51 UTC</createdTime>
+<generatorID>B4653764-64D2-09F8-5526-FB3281D189CF</generatorID>
+<ownerDesignName>ERD RPL</ownerDesignName>
+<engineerTo>
+<item key="EBCA59AC-22BB-6B20-837F-90959E10534C" value="true"/>
+</engineerTo>
+<referedAttribute>F93520F6-AE8E-FA78-EE8A-F569295D65ED</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="CB478BF8-66C3-DA19-339C-7692E37BD4A5" name="pembayaran PK">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-07-06 04:04:14 UTC</createdTime>
+<ownerDesignName>ERD RPL</ownerDesignName>
+<engineerTo>
+<item key="EBCA59AC-22BB-6B20-837F-90959E10534C" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>5703C84C-CE2D-68DE-F2E2-B89416425330</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

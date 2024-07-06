@@ -1,0 +1,68 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FFDA3804-7D4C-6AD5-CF10-66366E424987" name="pesan">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-07-06 03:57:20 UTC</createdTime>
+<ownerDesignName>ERD RPL</ownerDesignName>
+<engineerTo>
+<item key="EBCA59AC-22BB-6B20-837F-90959E10534C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_pesan" id="4F6DAD83-72D2-05E5-8381-EBCAC30BCFB5">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-07-06 04:04:35 UTC</createdTime>
+<ownerDesignName>ERD RPL</ownerDesignName>
+<engineerTo>
+<item key="EBCA59AC-22BB-6B20-837F-90959E10534C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="isi_pesan" id="ED3131A1-E993-9881-75D8-19DE1ABD2CD4">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-07-06 04:04:40 UTC</createdTime>
+<ownerDesignName>ERD RPL</ownerDesignName>
+<engineerTo>
+<item key="EBCA59AC-22BB-6B20-837F-90959E10534C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_pembayaran" id="A22FE441-919C-E5BC-83C5-4219CD162A6E">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-07-06 04:07:54 UTC</createdTime>
+<generatorID>99EE0611-86BD-DED0-D323-3832D01E8277</generatorID>
+<ownerDesignName>ERD RPL</ownerDesignName>
+<engineerTo>
+<item key="EBCA59AC-22BB-6B20-837F-90959E10534C" value="true"/>
+</engineerTo>
+<referedAttribute>5703C84C-CE2D-68DE-F2E2-B89416425330</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="5AA77A27-3035-A13A-178D-622E6BD58DA2" name="pesan PK">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-07-06 04:04:39 UTC</createdTime>
+<ownerDesignName>ERD RPL</ownerDesignName>
+<engineerTo>
+<item key="EBCA59AC-22BB-6B20-837F-90959E10534C" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>4F6DAD83-72D2-05E5-8381-EBCAC30BCFB5</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

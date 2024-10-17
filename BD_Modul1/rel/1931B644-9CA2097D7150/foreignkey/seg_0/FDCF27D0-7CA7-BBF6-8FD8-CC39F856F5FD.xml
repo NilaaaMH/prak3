@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="FDCF27D0-7CA7-BBF6-8FD8-CC39F856F5FD" containerWithKeyObject="9730F536-CD22-B6BA-3F26-0CE01FBC67DC" localFKIndex="F3D0B9A5-B613-C000-184C-5E0FBFF20E45" name="transaksi_pegawai_FK">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-03-14 21:49:07 UTC</createdTime>
+<generatorID>B6F9A424-9F43-B75B-2BC3-222D4AF3AE1B</generatorID>
+<ownerDesignName>BD_Modul1</ownerDesignName>
+<referredTableLongName>pegawai</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>82CC05D7-3550-2CE1-5D32-07FC0A2214B2</referredTableID>
+<keyObject>20E61ADA-2088-DA59-6347-09BC91EDA237</keyObject>
+<referredKeyID>20E61ADA-2088-DA59-6347-09BC91EDA237</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_pegawai</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

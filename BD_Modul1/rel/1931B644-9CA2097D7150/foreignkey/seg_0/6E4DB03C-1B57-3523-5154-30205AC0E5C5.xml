@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="6E4DB03C-1B57-3523-5154-30205AC0E5C5" containerWithKeyObject="AFC7F79A-22AB-D7CA-7162-CD6511598528" localFKIndex="6E7C2882-9921-D37F-CC49-0499D6302D0D" name="stok_produk_FK">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-03-14 21:49:07 UTC</createdTime>
+<generatorID>CAB9E509-06E5-D7FE-DB98-20ACFAEC7D74</generatorID>
+<ownerDesignName>BD_Modul1</ownerDesignName>
+<referredTableLongName>produk</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>B31D99BA-F999-18AE-1EB5-15BF2F562812</referredTableID>
+<keyObject>05AE86FB-48C7-9DFB-BDA5-564D5E948EE6</keyObject>
+<referredKeyID>05AE86FB-48C7-9DFB-BDA5-564D5E948EE6</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_produk</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

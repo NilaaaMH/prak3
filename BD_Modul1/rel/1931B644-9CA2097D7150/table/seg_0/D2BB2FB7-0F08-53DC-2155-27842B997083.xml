@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D2BB2FB7-0F08-53DC-2155-27842B997083" name="Relation_6">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-03-14 21:49:07 UTC</createdTime>
+<ownerDesignName>BD_Modul1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="produk_id_produk" id="AE4504FD-6096-673E-A5B9-0BDE6F3571CD">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-03-14 21:49:07 UTC</createdTime>
+<ownerDesignName>BD_Modul1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FF565428-D5D8-38B0-D98C-B3364922BE0D" referredColumn="BA04A251-7B6B-AD56-72C5-ECC1070DFEF5"/>
+</associations>
+</Column>
+<Column name="transaksi_id_transaksi" id="6BAB25D1-693F-303A-321A-F03A3CB31CDC">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-03-14 21:49:07 UTC</createdTime>
+<ownerDesignName>BD_Modul1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BB8C9D03-D0EF-59AD-A929-C19E11FB0A96" referredColumn="05D12A1F-A4B6-366B-F408-AE6AEAC0D66B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EC288509-0F91-D998-46C6-1A22E9233D3F" name="Relation_6_PK">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-03-14 21:49:07 UTC</createdTime>
+<ownerDesignName>BD_Modul1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AE4504FD-6096-673E-A5B9-0BDE6F3571CD"/>
+<colUsage columnID="6BAB25D1-693F-303A-321A-F03A3CB31CDC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="62664AB0-7A2A-AFE5-1623-2BA920389ED9" name="Relation_6_produk_FK">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-03-14 21:49:07 UTC</createdTime>
+<generatorID>8CBEC450-61D7-94FD-99D3-A0F6EE90B55C</generatorID>
+<ownerDesignName>BD_Modul1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AE4504FD-6096-673E-A5B9-0BDE6F3571CD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="976C8C97-E6A9-045F-8F49-8B53DAF9B498" name="Relation_6_transaksi_FK">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-03-14 21:49:07 UTC</createdTime>
+<generatorID>8CBEC450-61D7-94FD-99D3-A0F6EE90B55C</generatorID>
+<ownerDesignName>BD_Modul1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6BAB25D1-693F-303A-321A-F03A3CB31CDC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

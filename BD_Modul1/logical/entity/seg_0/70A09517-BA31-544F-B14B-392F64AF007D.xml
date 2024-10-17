@@ -1,0 +1,165 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="70A09517-BA31-544F-B14B-392F64AF007D" name="detail_transaksi">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-03-14 18:19:10 UTC</createdTime>
+<ownerDesignName>BD_Modul1</ownerDesignName>
+<engineerTo>
+<item key="1931B644-F9C3-3297-CFF2-9CA2097D7150" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_detail_transaksi" id="6F71A76C-ABC3-5014-ABA1-B495C544EDE9">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-03-14 18:19:29 UTC</createdTime>
+<ownerDesignName>BD_Modul1</ownerDesignName>
+<engineerTo>
+<item key="1931B644-F9C3-3297-CFF2-9CA2097D7150" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_transaksi" id="CEE4B412-51E6-32C6-EC17-DAE2843F86C0">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-03-14 18:19:47 UTC</createdTime>
+<ownerDesignName>BD_Modul1</ownerDesignName>
+<engineerTo>
+<item key="1931B644-F9C3-3297-CFF2-9CA2097D7150" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="jumlah_produk" id="89B18C1A-D71C-5221-DEEB-E064167501FA">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-03-14 18:27:26 UTC</createdTime>
+<ownerDesignName>BD_Modul1</ownerDesignName>
+<engineerTo>
+<item key="1931B644-F9C3-3297-CFF2-9CA2097D7150" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="harga_satuan" id="80B03273-DCDE-78B2-EBD8-68B021208B9A">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-03-14 18:27:38 UTC</createdTime>
+<ownerDesignName>BD_Modul1</ownerDesignName>
+<engineerTo>
+<item key="1931B644-F9C3-3297-CFF2-9CA2097D7150" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<ownDataTypeParameters>,18,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="subtotal" id="9AF84AB3-F2A1-ADA9-1B50-4BBF124E3D19">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-03-14 18:27:59 UTC</createdTime>
+<ownerDesignName>BD_Modul1</ownerDesignName>
+<engineerTo>
+<item key="1931B644-F9C3-3297-CFF2-9CA2097D7150" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<ownDataTypeParameters>,18,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="diskon" id="A2F8C28B-E429-7D2A-7D52-99FEB8573488">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-03-14 18:28:03 UTC</createdTime>
+<ownerDesignName>BD_Modul1</ownerDesignName>
+<engineerTo>
+<item key="1931B644-F9C3-3297-CFF2-9CA2097D7150" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<ownDataTypeParameters>,18,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ppn" id="98242548-ED8E-059F-A91A-42141858E668">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-03-14 18:28:21 UTC</createdTime>
+<ownerDesignName>BD_Modul1</ownerDesignName>
+<engineerTo>
+<item key="1931B644-F9C3-3297-CFF2-9CA2097D7150" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<ownDataTypeParameters>,18,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="total" id="BDA7B395-61E6-FB86-CD80-C99FD6F146B5">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-03-14 18:28:25 UTC</createdTime>
+<ownerDesignName>BD_Modul1</ownerDesignName>
+<engineerTo>
+<item key="1931B644-F9C3-3297-CFF2-9CA2097D7150" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<ownDataTypeParameters>,18,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_transaksi1" id="F8719EAE-6D0B-CBD4-6862-58350EB9581F">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-03-14 18:31:22 UTC</createdTime>
+<generatorID>A9A65741-4772-F13E-70B3-AA4BD9E035BC</generatorID>
+<ownerDesignName>BD_Modul1</ownerDesignName>
+<engineerTo>
+<item key="1931B644-F9C3-3297-CFF2-9CA2097D7150" value="true"/>
+</engineerTo>
+<referedAttribute>7B0BA9CD-7A4D-67E7-D358-7C84EF76CD7D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_pelanggan" id="356FFD1E-9B28-650A-3565-4F91AB0FCCD6">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-03-14 21:45:39 UTC</createdTime>
+<generatorID>A9A65741-4772-F13E-70B3-AA4BD9E035BC</generatorID>
+<ownerDesignName>BD_Modul1</ownerDesignName>
+<engineerTo>
+<item key="1931B644-F9C3-3297-CFF2-9CA2097D7150" value="true"/>
+</engineerTo>
+<referedAttribute>CEE7E13D-8AF0-729D-043F-2593ACAEE68C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="6FA7C58D-9AB7-2646-6902-B41286A278DF" name="detail_transaksi PK">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-03-14 18:19:40 UTC</createdTime>
+<ownerDesignName>BD_Modul1</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="1931B644-F9C3-3297-CFF2-9CA2097D7150" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>6F71A76C-ABC3-5014-ABA1-B495C544EDE9</attributeRef>
+<attributeRef>F8719EAE-6D0B-CBD4-6862-58350EB9581F</attributeRef>
+<attributeRef>356FFD1E-9B28-650A-3565-4F91AB0FCCD6</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

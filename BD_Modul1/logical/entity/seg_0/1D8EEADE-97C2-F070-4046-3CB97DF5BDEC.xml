@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1D8EEADE-97C2-F070-4046-3CB97DF5BDEC" name="Transaksi">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1D8EEADE-97C2-F070-4046-3CB97DF5BDEC" name="transaksi">
 <createdBy>Nilla</createdBy>
 <createdTime>2024-02-28 23:08:25 UTC</createdTime>
 <ownerDesignName>BD_Modul1</ownerDesignName>
@@ -15,7 +15,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="ID_Transaksi" id="7B0BA9CD-7A4D-67E7-D358-7C84EF76CD7D">
+<Attribute name="id_transaksi" id="7B0BA9CD-7A4D-67E7-D358-7C84EF76CD7D">
 <createdBy>Nilla</createdBy>
 <createdTime>2024-02-28 23:15:57 UTC</createdTime>
 <ownerDesignName>BD_Modul1</ownerDesignName>
@@ -27,7 +27,7 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Tanggal_Transaksi" id="0FBA770B-75E8-7E00-6EC1-74A568769A82">
+<Attribute name="tanggal_transaksi" id="0FBA770B-75E8-7E00-6EC1-74A568769A82">
 <createdBy>Nilla</createdBy>
 <createdTime>2024-02-28 23:16:10 UTC</createdTime>
 <ownerDesignName>BD_Modul1</ownerDesignName>
@@ -39,7 +39,7 @@
 <logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Total_Harga" id="311B7FBB-3965-F555-5F37-EAFD47D83A07">
+<Attribute name="total_harga" id="311B7FBB-3965-F555-5F37-EAFD47D83A07">
 <createdBy>Nilla</createdBy>
 <createdTime>2024-02-28 23:16:24 UTC</createdTime>
 <ownerDesignName>BD_Modul1</ownerDesignName>
@@ -49,10 +49,10 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT021</logicalDatatype>
-<dataTypePrecision>24</dataTypePrecision>
-<ownDataTypeParameters>,24,</ownDataTypeParameters>
+<dataTypePrecision>53</dataTypePrecision>
+<ownDataTypeParameters>,53,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Metode_Pembayaran" id="D2C59337-1F5F-2F65-EE61-264506FDA4CD">
+<Attribute name="metode_pembayaran" id="D2C59337-1F5F-2F65-EE61-264506FDA4CD">
 <createdBy>Nilla</createdBy>
 <createdTime>2024-02-28 23:16:35 UTC</createdTime>
 <ownerDesignName>BD_Modul1</ownerDesignName>
@@ -62,8 +62,36 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>100</dataTypeSize>
-<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_pelanggan" id="CEE7E13D-8AF0-729D-043F-2593ACAEE68C">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-03-14 18:11:57 UTC</createdTime>
+<generatorID>0F2277D7-EAA9-9C1F-B54A-1A1433B7AED6</generatorID>
+<ownerDesignName>BD_Modul1</ownerDesignName>
+<engineerTo>
+<item key="1931B644-F9C3-3297-CFF2-9CA2097D7150" value="true"/>
+</engineerTo>
+<referedAttribute>2F58B0C0-9F05-AF00-C50F-93BA59E100A5</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_pegawai" id="064C72A8-E0EF-3D89-0046-BB4790DF929E">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-03-14 18:15:21 UTC</createdTime>
+<generatorID>B6F9A424-9F43-B75B-2BC3-222D4AF3AE1B</generatorID>
+<ownerDesignName>BD_Modul1</ownerDesignName>
+<engineerTo>
+<item key="1931B644-F9C3-3297-CFF2-9CA2097D7150" value="true"/>
+</engineerTo>
+<referedAttribute>8D252AF9-FE8B-F54A-0A51-402A8CC00247</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
@@ -78,6 +106,7 @@
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>7B0BA9CD-7A4D-67E7-D358-7C84EF76CD7D</attributeRef>
+<attributeRef>CEE7E13D-8AF0-729D-043F-2593ACAEE68C</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

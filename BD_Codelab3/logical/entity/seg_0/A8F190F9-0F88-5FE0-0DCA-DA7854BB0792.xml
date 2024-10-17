@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A8F190F9-0F88-5FE0-0DCA-DA7854BB0792" name="kunjungan">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A8F190F9-0F88-5FE0-0DCA-DA7854BB0792" name="pemeriksaan">
 <createdBy>Nilla</createdBy>
 <createdTime>2024-03-22 03:14:40 UTC</createdTime>
 <ownerDesignName>BD_Codelab3</ownerDesignName>
@@ -14,4 +14,71 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="tgl_periksa" id="C904877C-C46B-06B4-74FE-08D312FE302C">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-03-22 08:09:31 UTC</createdTime>
+<ownerDesignName>BD_Codelab3</ownerDesignName>
+<engineerTo>
+<item key="861A2BF8-D3BE-B613-333E-F632973E58A5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="no_pasien" id="BD064453-DC74-D79C-FAE1-A05C213A2F72">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-03-22 08:11:27 UTC</createdTime>
+<generatorID>51065BDD-FBAF-3A43-E141-D3B7EAA71B00</generatorID>
+<ownerDesignName>BD_Codelab3</ownerDesignName>
+<engineerTo>
+<item key="861A2BF8-D3BE-B613-333E-F632973E58A5" value="true"/>
+</engineerTo>
+<referedAttribute>22DB53B7-D219-D50B-1D93-A0F1FE1D5DA1</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="kode_dokter" id="E292A93B-0989-CAC1-144D-B09E81F7540B">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-03-22 08:11:40 UTC</createdTime>
+<generatorID>A3B75F83-C3A0-2F2A-2ED1-5198686983C8</generatorID>
+<ownerDesignName>BD_Codelab3</ownerDesignName>
+<engineerTo>
+<item key="861A2BF8-D3BE-B613-333E-F632973E58A5" value="true"/>
+</engineerTo>
+<referedAttribute>76E7799E-E49C-4B58-871A-13A0C13712DB</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="kode_sakit" id="D88065AF-39DC-A5B4-2CB2-93ED2FB23810">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-03-22 08:12:07 UTC</createdTime>
+<generatorID>CD54E5B8-0F8D-C818-3997-B33526B6A798</generatorID>
+<ownerDesignName>BD_Codelab3</ownerDesignName>
+<engineerTo>
+<item key="861A2BF8-D3BE-B613-333E-F632973E58A5" value="true"/>
+</engineerTo>
+<referedAttribute>50EFBAD8-A16C-9C72-29EA-E8A9E3C46461</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C5E9E4D1-1A42-CC1B-A483-FF9932221ACA" name="pemeriksaan PK">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-03-22 08:09:36 UTC</createdTime>
+<ownerDesignName>BD_Codelab3</ownerDesignName>
+<engineerTo>
+<item key="861A2BF8-D3BE-B613-333E-F632973E58A5" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C904877C-C46B-06B4-74FE-08D312FE302C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>

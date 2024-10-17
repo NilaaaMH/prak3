@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AFC7F79A-22AB-D7CA-7162-CD6511598528" name="Stok">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AFC7F79A-22AB-D7CA-7162-CD6511598528" name="stok">
 <createdBy>Nilla</createdBy>
 <createdTime>2024-02-28 23:33:10 UTC</createdTime>
 <generatorID>EDAC4C00-3EFE-E043-C1C3-FB344539B90A</generatorID>
@@ -8,7 +8,7 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="ID_Stok" id="5A1C21EA-6C71-D97F-0F72-4E66BF0ADCAA">
+<Column name="id_stok" id="5A1C21EA-6C71-D97F-0F72-4E66BF0ADCAA">
 <createdBy>Nilla</createdBy>
 <createdTime>2024-02-28 23:33:10 UTC</createdTime>
 <generatorID>9F76AF1A-A523-FE88-7E28-A65429150CA8</generatorID>
@@ -19,7 +19,7 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Jumlah" id="F8681690-EE31-6371-362D-54A1BFE8ED61">
+<Column name="jumlah" id="F8681690-EE31-6371-362D-54A1BFE8ED61">
 <createdBy>Nilla</createdBy>
 <createdTime>2024-02-28 23:33:10 UTC</createdTime>
 <generatorID>9F769B4F-1471-086D-5506-BDB255C40639</generatorID>
@@ -30,7 +30,7 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Tanggal_Masuk" id="D861A8DE-73FA-D2BE-54EE-4B4925DCE238">
+<Column name="tanggal_masuk" id="D861A8DE-73FA-D2BE-54EE-4B4925DCE238">
 <createdBy>Nilla</createdBy>
 <createdTime>2024-02-28 23:33:10 UTC</createdTime>
 <generatorID>D55CC561-3719-4F44-EBFB-8570CC90A652</generatorID>
@@ -39,6 +39,45 @@
 <use>1</use>
 <logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tanggal_keluar" id="0EC8C74C-1394-FA7A-EB1A-F4D14D066303">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-03-14 21:49:07 UTC</createdTime>
+<generatorID>4B30E53A-ED5B-A878-4365-B46C5F6DE061</generatorID>
+<ownerDesignName>BD_Modul1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="produk_id_produk" id="74696E7C-8EBF-F221-893B-03AE6055B311">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-03-14 21:49:07 UTC</createdTime>
+<generatorID>CBC4DEC2-AA3C-5D59-857A-82FF3C3A3BB4</generatorID>
+<ownerDesignName>BD_Modul1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6E4DB03C-1B57-3523-5154-30205AC0E5C5" referredColumn="BA04A251-7B6B-AD56-72C5-ECC1070DFEF5"/>
+</associations>
+</Column>
+<Column name="id_supplier" id="774647BB-2801-346B-ED5B-83E68C9EA62B">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-03-14 21:49:07 UTC</createdTime>
+<generatorID>5BFD738A-6FE6-CA9F-C733-885293ABC39B</generatorID>
+<ownerDesignName>BD_Modul1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>
@@ -53,6 +92,17 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="5A1C21EA-6C71-D97F-0F72-4E66BF0ADCAA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6E7C2882-9921-D37F-CC49-0499D6302D0D" name="stok_produk_FK">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-03-14 21:49:07 UTC</createdTime>
+<generatorID>CAB9E509-06E5-D7FE-DB98-20ACFAEC7D74</generatorID>
+<ownerDesignName>BD_Modul1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="74696E7C-8EBF-F221-893B-03AE6055B311"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

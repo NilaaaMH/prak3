@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1C6C67F8-D6EA-15C6-C81C-071FC18C7988" name="Hewan">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1C6C67F8-D6EA-15C6-C81C-071FC18C7988" name="hewan">
 <createdBy>Nilla</createdBy>
 <createdTime>2024-02-28 23:33:10 UTC</createdTime>
 <generatorID>19957229-471D-C444-E4E8-1A9E6D94593B</generatorID>
@@ -8,7 +8,7 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="ID_Hewan" id="83126E16-4B44-D4E2-58D1-C2B033CBE25C">
+<Column name="id_hewan" id="83126E16-4B44-D4E2-58D1-C2B033CBE25C">
 <createdBy>Nilla</createdBy>
 <createdTime>2024-02-28 23:33:10 UTC</createdTime>
 <generatorID>5720E6DF-1E8E-DE86-DFAB-DCCAD9EDDA2C</generatorID>
@@ -19,7 +19,7 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Nama_Hewan" id="D6BCFACF-E053-72E6-7895-1AE045F4E037">
+<Column name="nama_hewan" id="D6BCFACF-E053-72E6-7895-1AE045F4E037">
 <createdBy>Nilla</createdBy>
 <createdTime>2024-02-28 23:33:10 UTC</createdTime>
 <generatorID>744B7590-A370-48F4-0193-D05292CE1737</generatorID>
@@ -27,11 +27,11 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>100</dataTypeSize>
-<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Jenis" id="063E4341-9015-A207-970F-05A3DCB7D42B">
+<Column name="jenis" id="063E4341-9015-A207-970F-05A3DCB7D42B">
 <createdBy>Nilla</createdBy>
 <createdTime>2024-02-28 23:33:10 UTC</createdTime>
 <generatorID>E3CCB883-B654-3BA2-2E7A-B608D70AE2F8</generatorID>
@@ -39,11 +39,11 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>100</dataTypeSize>
-<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Umur" id="BA28D1DB-5716-6916-0A83-F51E7C51DFF2">
+<Column name="umur" id="BA28D1DB-5716-6916-0A83-F51E7C51DFF2">
 <createdBy>Nilla</createdBy>
 <createdTime>2024-02-28 23:33:10 UTC</createdTime>
 <generatorID>2E5B0815-9DAF-37FE-78EC-5FDAFBBD8262</generatorID>
@@ -53,6 +53,21 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pelanggan_id_pelanggan" id="147F1656-64E3-854A-B30B-6CD5BF6084CB">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-03-14 21:49:07 UTC</createdTime>
+<generatorID>DFBC09F8-F84C-3081-139F-75D0309ADAD9</generatorID>
+<ownerDesignName>BD_Modul1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E5641764-A36D-D051-59C2-2DAD9DD461D4" referredColumn="44D1A2CD-692E-8333-D117-174C8E87B5C0"/>
+</associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
@@ -66,6 +81,17 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="83126E16-4B44-D4E2-58D1-C2B033CBE25C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2CAF441A-8F58-0CDC-4E3E-E8CB8A21F030" name="hewan_pelanggan_FK">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-03-14 21:49:07 UTC</createdTime>
+<generatorID>692171A9-4CEE-3AC2-2DD7-596AF148B804</generatorID>
+<ownerDesignName>BD_Modul1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="147F1656-64E3-854A-B30B-6CD5BF6084CB"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

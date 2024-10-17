@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="98970EC4-71B9-E627-1E44-E00BEDD3573C" name="Supplier">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="98970EC4-71B9-E627-1E44-E00BEDD3573C" name="supplier">
 <createdBy>Nilla</createdBy>
 <createdTime>2024-02-28 23:33:10 UTC</createdTime>
 <generatorID>EF880210-D0CE-2A47-B3EF-4ADE1D4AF4C5</generatorID>
@@ -8,7 +8,7 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="ID_Supplier" id="F86D5DCE-4888-242F-A1E8-DE7E48E1AED7">
+<Column name="id_supplier" id="F86D5DCE-4888-242F-A1E8-DE7E48E1AED7">
 <createdBy>Nilla</createdBy>
 <createdTime>2024-02-28 23:33:10 UTC</createdTime>
 <generatorID>DBC86ECC-F93A-0622-4023-6FD202BE4116</generatorID>
@@ -19,7 +19,7 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Nama_Supplier" id="07255348-D10B-CEC0-5358-1B6CF1D84127">
+<Column name="nama_supplier" id="07255348-D10B-CEC0-5358-1B6CF1D84127">
 <createdBy>Nilla</createdBy>
 <createdTime>2024-02-28 23:33:10 UTC</createdTime>
 <generatorID>8100A449-E082-4FAC-7D14-988B927F05F1</generatorID>
@@ -27,11 +27,11 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>100</dataTypeSize>
-<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Alamat_Supplier" id="3CFBE2A3-B086-AD88-2654-F95B87F708D6">
+<Column name="alamat_supplier" id="3CFBE2A3-B086-AD88-2654-F95B87F708D6">
 <createdBy>Nilla</createdBy>
 <createdTime>2024-02-28 23:33:10 UTC</createdTime>
 <generatorID>A6650DB8-F79F-1671-C960-1804588E35F7</generatorID>
@@ -39,11 +39,11 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>100</dataTypeSize>
-<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="No_HP_Supplier" id="97947AF8-5DA9-B28A-8D7D-EAEFB430FF90">
+<Column name="no_telp_supplier" id="97947AF8-5DA9-B28A-8D7D-EAEFB430FF90">
 <createdBy>Nilla</createdBy>
 <createdTime>2024-02-28 23:33:10 UTC</createdTime>
 <generatorID>A4756E01-47AB-F014-7BE4-F5E0426B2DE5</generatorID>
@@ -51,8 +51,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>100</dataTypeSize>
-<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>

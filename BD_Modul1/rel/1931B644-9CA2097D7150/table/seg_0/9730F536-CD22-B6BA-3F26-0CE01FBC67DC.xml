@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9730F536-CD22-B6BA-3F26-0CE01FBC67DC" name="Transaksi">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9730F536-CD22-B6BA-3F26-0CE01FBC67DC" name="transaksi">
 <createdBy>Nilla</createdBy>
 <createdTime>2024-02-28 23:33:10 UTC</createdTime>
 <generatorID>1D8EEADE-97C2-F070-4046-3CB97DF5BDEC</generatorID>
@@ -8,7 +8,7 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="ID_Transaksi" id="05D12A1F-A4B6-366B-F408-AE6AEAC0D66B">
+<Column name="id_transaksi" id="05D12A1F-A4B6-366B-F408-AE6AEAC0D66B">
 <createdBy>Nilla</createdBy>
 <createdTime>2024-02-28 23:33:10 UTC</createdTime>
 <generatorID>7B0BA9CD-7A4D-67E7-D358-7C84EF76CD7D</generatorID>
@@ -19,7 +19,7 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Tanggal_Transaksi" id="E5688CDF-6533-1C5C-2C0C-C128DF8494A2">
+<Column name="tanggal_transaksi" id="E5688CDF-6533-1C5C-2C0C-C128DF8494A2">
 <createdBy>Nilla</createdBy>
 <createdTime>2024-02-28 23:33:10 UTC</createdTime>
 <generatorID>0FBA770B-75E8-7E00-6EC1-74A568769A82</generatorID>
@@ -30,7 +30,7 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Total_Harga" id="51D7BBDF-1594-C1EA-3D86-6E91032FA14A">
+<Column name="total_harga" id="51D7BBDF-1594-C1EA-3D86-6E91032FA14A">
 <createdBy>Nilla</createdBy>
 <createdTime>2024-02-28 23:33:10 UTC</createdTime>
 <generatorID>311B7FBB-3965-F555-5F37-EAFD47D83A07</generatorID>
@@ -38,11 +38,11 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT021</logicalDatatype>
-<dataTypePrecision>24</dataTypePrecision>
-<ownDataTypeParameters>,24,</ownDataTypeParameters>
+<dataTypePrecision>53</dataTypePrecision>
+<ownDataTypeParameters>,53,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Metode_Pembayaran" id="0ECAF64E-91E7-3DB3-96C2-349A87B65FD3">
+<Column name="metode_pembayaran" id="0ECAF64E-91E7-3DB3-96C2-349A87B65FD3">
 <createdBy>Nilla</createdBy>
 <createdTime>2024-02-28 23:33:10 UTC</createdTime>
 <generatorID>D2C59337-1F5F-2F65-EE61-264506FDA4CD</generatorID>
@@ -50,9 +50,39 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>100</dataTypeSize>
-<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pelanggan_id_pelanggan" id="D87F5758-1B6C-CBE3-9F40-143ECFF5C3B1">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-03-14 21:49:07 UTC</createdTime>
+<generatorID>CEE7E13D-8AF0-729D-043F-2593ACAEE68C</generatorID>
+<ownerDesignName>BD_Modul1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="44E03C14-514F-D051-5D9C-F92047B13794" referredColumn="44D1A2CD-692E-8333-D117-174C8E87B5C0"/>
+</associations>
+</Column>
+<Column name="pegawai_id_pegawai" id="407A72E9-9901-5ECA-96FB-483A442267BB">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-03-14 21:49:07 UTC</createdTime>
+<generatorID>064C72A8-E0EF-3D89-0046-BB4790DF929E</generatorID>
+<ownerDesignName>BD_Modul1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FDCF27D0-7CA7-BBF6-8FD8-CC39F856F5FD" referredColumn="0C086370-EC18-E8B5-35D1-8A157AA5F3D5"/>
+</associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
@@ -66,6 +96,28 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="05D12A1F-A4B6-366B-F408-AE6AEAC0D66B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F5292979-9EA9-97B3-D497-3E1A4E55B201" name="transaksi_pelanggan_FK">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-03-14 21:49:07 UTC</createdTime>
+<generatorID>0F2277D7-EAA9-9C1F-B54A-1A1433B7AED6</generatorID>
+<ownerDesignName>BD_Modul1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D87F5758-1B6C-CBE3-9F40-143ECFF5C3B1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F3D0B9A5-B613-C000-184C-5E0FBFF20E45" name="transaksi_pegawai_FK">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-03-14 21:49:07 UTC</createdTime>
+<generatorID>B6F9A424-9F43-B75B-2BC3-222D4AF3AE1B</generatorID>
+<ownerDesignName>BD_Modul1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="407A72E9-9901-5ECA-96FB-483A442267BB"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

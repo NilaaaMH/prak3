@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="EDAC4C00-3EFE-E043-C1C3-FB344539B90A" name="Stok">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="EDAC4C00-3EFE-E043-C1C3-FB344539B90A" name="stok">
 <createdBy>Nilla</createdBy>
 <createdTime>2024-02-28 23:02:12 UTC</createdTime>
 <ownerDesignName>BD_Modul1</ownerDesignName>
@@ -15,7 +15,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="ID_Stok" id="9F76AF1A-A523-FE88-7E28-A65429150CA8">
+<Attribute name="id_stok" id="9F76AF1A-A523-FE88-7E28-A65429150CA8">
 <createdBy>Nilla</createdBy>
 <createdTime>2024-02-28 23:06:42 UTC</createdTime>
 <ownerDesignName>BD_Modul1</ownerDesignName>
@@ -27,7 +27,7 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Jumlah" id="9F769B4F-1471-086D-5506-BDB255C40639">
+<Attribute name="jumlah" id="9F769B4F-1471-086D-5506-BDB255C40639">
 <createdBy>Nilla</createdBy>
 <createdTime>2024-02-28 23:06:51 UTC</createdTime>
 <ownerDesignName>BD_Modul1</ownerDesignName>
@@ -39,7 +39,7 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Tanggal_Masuk" id="D55CC561-3719-4F44-EBFB-8570CC90A652">
+<Attribute name="tanggal_masuk" id="D55CC561-3719-4F44-EBFB-8570CC90A652">
 <createdBy>Nilla</createdBy>
 <createdTime>2024-02-28 23:07:00 UTC</createdTime>
 <ownerDesignName>BD_Modul1</ownerDesignName>
@@ -49,6 +49,47 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tanggal_keluar" id="4B30E53A-ED5B-A878-4365-B46C5F6DE061">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-03-01 07:10:20 UTC</createdTime>
+<ownerDesignName>BD_Modul1</ownerDesignName>
+<engineerTo>
+<item key="1931B644-F9C3-3297-CFF2-9CA2097D7150" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_produk" id="CBC4DEC2-AA3C-5D59-857A-82FF3C3A3BB4">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-03-14 18:14:33 UTC</createdTime>
+<generatorID>CAB9E509-06E5-D7FE-DB98-20ACFAEC7D74</generatorID>
+<ownerDesignName>BD_Modul1</ownerDesignName>
+<engineerTo>
+<item key="1931B644-F9C3-3297-CFF2-9CA2097D7150" value="true"/>
+</engineerTo>
+<referedAttribute>57F63E51-B012-3B9B-5394-A694CC589E64</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_supplier" id="5BFD738A-6FE6-CA9F-C733-885293ABC39B">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-03-14 21:45:59 UTC</createdTime>
+<generatorID>CAB9E509-06E5-D7FE-DB98-20ACFAEC7D74</generatorID>
+<ownerDesignName>BD_Modul1</ownerDesignName>
+<engineerTo>
+<item key="1931B644-F9C3-3297-CFF2-9CA2097D7150" value="true"/>
+</engineerTo>
+<referedAttribute>522A7556-BAF7-9F90-96E5-228691E4A2B4</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
@@ -64,6 +105,8 @@
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>9F76AF1A-A523-FE88-7E28-A65429150CA8</attributeRef>
+<attributeRef>CBC4DEC2-AA3C-5D59-857A-82FF3C3A3BB4</attributeRef>
+<attributeRef>5BFD738A-6FE6-CA9F-C733-885293ABC39B</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

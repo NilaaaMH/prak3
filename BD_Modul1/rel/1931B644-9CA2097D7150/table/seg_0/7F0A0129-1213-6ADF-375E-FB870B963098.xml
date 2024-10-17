@@ -1,0 +1,159 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7F0A0129-1213-6ADF-375E-FB870B963098" name="detail_transaksi">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-03-14 21:49:07 UTC</createdTime>
+<generatorID>70A09517-BA31-544F-B14B-392F64AF007D</generatorID>
+<ownerDesignName>BD_Modul1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_detail_transaksi" id="D5FE063F-539A-A349-9ADD-6979C6319D9C">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-03-14 21:49:07 UTC</createdTime>
+<generatorID>6F71A76C-ABC3-5014-ABA1-B495C544EDE9</generatorID>
+<ownerDesignName>BD_Modul1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_transaksi" id="97429AEB-ECF4-A1D9-D809-4AF8FBFAE160">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-03-14 21:49:07 UTC</createdTime>
+<generatorID>CEE4B412-51E6-32C6-EC17-DAE2843F86C0</generatorID>
+<ownerDesignName>BD_Modul1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="jumlah_produk" id="0CC4A646-068A-0075-5A7B-3547A8917785">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-03-14 21:49:07 UTC</createdTime>
+<generatorID>89B18C1A-D71C-5221-DEEB-E064167501FA</generatorID>
+<ownerDesignName>BD_Modul1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="harga_satuan" id="429133BA-9A78-65EC-021D-D3D61C20AC5F">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-03-14 21:49:07 UTC</createdTime>
+<generatorID>80B03273-DCDE-78B2-EBD8-68B021208B9A</generatorID>
+<ownerDesignName>BD_Modul1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<ownDataTypeParameters>,18,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="subtotal" id="B0BFBC0A-4BE8-3B06-C680-B43DD2089306">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-03-14 21:49:07 UTC</createdTime>
+<generatorID>9AF84AB3-F2A1-ADA9-1B50-4BBF124E3D19</generatorID>
+<ownerDesignName>BD_Modul1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<ownDataTypeParameters>,18,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="diskon" id="7FFBE53F-E65B-CC2D-205A-9F840F85B781">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-03-14 21:49:07 UTC</createdTime>
+<generatorID>A2F8C28B-E429-7D2A-7D52-99FEB8573488</generatorID>
+<ownerDesignName>BD_Modul1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<ownDataTypeParameters>,18,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ppn" id="F4DB7EFC-8538-1814-28C5-1B667BAEC3FA">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-03-14 21:49:07 UTC</createdTime>
+<generatorID>98242548-ED8E-059F-A91A-42141858E668</generatorID>
+<ownerDesignName>BD_Modul1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<ownDataTypeParameters>,18,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="total" id="71C84B15-43AF-41F5-D29E-94E8C54ACDF0">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-03-14 21:49:07 UTC</createdTime>
+<generatorID>BDA7B395-61E6-FB86-CD80-C99FD6F146B5</generatorID>
+<ownerDesignName>BD_Modul1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<ownDataTypeParameters>,18,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="transaksi_id_transaksi" id="CD4AC330-3300-8EE7-A5A4-0BA8F3421A69">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-03-14 21:49:07 UTC</createdTime>
+<generatorID>F8719EAE-6D0B-CBD4-6862-58350EB9581F</generatorID>
+<ownerDesignName>BD_Modul1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C91A0F31-972E-ED2F-F37E-7EF8D51307D7" referredColumn="05D12A1F-A4B6-366B-F408-AE6AEAC0D66B"/>
+</associations>
+</Column>
+<Column name="id_pelanggan" id="F557B7B3-AC73-C1DD-8AAB-8617B9540B17">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-03-14 21:49:07 UTC</createdTime>
+<generatorID>356FFD1E-9B28-650A-3565-4F91AB0FCCD6</generatorID>
+<ownerDesignName>BD_Modul1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7B10BD69-3A6C-4BAF-BF85-93903F0BA7BD" name="detail_transaksi_PK">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-03-14 21:49:07 UTC</createdTime>
+<generatorID>6FA7C58D-9AB7-2646-6902-B41286A278DF</generatorID>
+<ownerDesignName>BD_Modul1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D5FE063F-539A-A349-9ADD-6979C6319D9C"/>
+<colUsage columnID="CD4AC330-3300-8EE7-A5A4-0BA8F3421A69"/>
+<colUsage columnID="F557B7B3-AC73-C1DD-8AAB-8617B9540B17"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4DC70C16-57D3-49FF-FE95-F75E662CE707" name="detail_transaksi_transaksi_FK">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-03-14 21:49:07 UTC</createdTime>
+<generatorID>A9A65741-4772-F13E-70B3-AA4BD9E035BC</generatorID>
+<ownerDesignName>BD_Modul1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CD4AC330-3300-8EE7-A5A4-0BA8F3421A69"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

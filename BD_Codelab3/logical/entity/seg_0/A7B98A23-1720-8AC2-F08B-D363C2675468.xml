@@ -14,4 +14,66 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="kode_obat" id="0DDBB2D4-B8CF-0987-8759-4800A0F955C8">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-03-22 08:10:11 UTC</createdTime>
+<ownerDesignName>BD_Codelab3</ownerDesignName>
+<engineerTo>
+<item key="861A2BF8-D3BE-B613-333E-F632973E58A5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nama_obat" id="FA007C71-EF84-B4E7-99D8-BD7C742BF5D5">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-03-22 08:10:30 UTC</createdTime>
+<ownerDesignName>BD_Codelab3</ownerDesignName>
+<engineerTo>
+<item key="861A2BF8-D3BE-B613-333E-F632973E58A5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dosis" id="EB4D7089-9E03-FA55-6C3D-BE1EDABEAD58">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-03-22 08:10:38 UTC</createdTime>
+<ownerDesignName>BD_Codelab3</ownerDesignName>
+<engineerTo>
+<item key="861A2BF8-D3BE-B613-333E-F632973E58A5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tgl_periksa" id="8B0429E7-0B7B-4369-38A9-DAF8A3EE4C84">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-03-22 08:12:15 UTC</createdTime>
+<generatorID>933781A6-6C5F-CD80-E676-6821D92F03E7</generatorID>
+<ownerDesignName>BD_Codelab3</ownerDesignName>
+<engineerTo>
+<item key="861A2BF8-D3BE-B613-333E-F632973E58A5" value="true"/>
+</engineerTo>
+<referedAttribute>C904877C-C46B-06B4-74FE-08D312FE302C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A7A298C3-5E8B-D54B-F004-2D2DDD54150E" name="obat PK">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-03-22 08:10:43 UTC</createdTime>
+<ownerDesignName>BD_Codelab3</ownerDesignName>
+<engineerTo>
+<item key="861A2BF8-D3BE-B613-333E-F632973E58A5" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>0DDBB2D4-B8CF-0987-8759-4800A0F955C8</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>

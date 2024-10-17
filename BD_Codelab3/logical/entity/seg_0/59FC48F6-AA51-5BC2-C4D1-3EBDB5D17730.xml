@@ -22,7 +22,6 @@
 <engineerTo>
 <item key="861A2BF8-D3BE-B613-333E-F632973E58A5" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
@@ -34,9 +33,22 @@
 <engineerTo>
 <item key="861A2BF8-D3BE-B613-333E-F632973E58A5" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="6DA57707-E4E9-246B-7174-F4C5BC6C0DBB" name="penyakit PK">
+<createdBy>Nilla</createdBy>
+<createdTime>2024-03-22 08:09:51 UTC</createdTime>
+<ownerDesignName>BD_Codelab3</ownerDesignName>
+<engineerTo>
+<item key="861A2BF8-D3BE-B613-333E-F632973E58A5" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>50EFBAD8-A16C-9C72-29EA-E8A9E3C46461</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>
